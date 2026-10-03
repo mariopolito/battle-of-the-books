@@ -1,0 +1,2030 @@
+{
+  "schemaVersion": 1,
+  "about": "Battle of the Books study content. All wording is original (no quotes from the books). Every question starts verified:false until a parent/coach checks it. 'confidence' says how well the fact was sourced when written: sourced = found in a listed source; weak = only a search snippet or one thin source; memory = from general knowledge, no source found (check these first).",
+  "sources": {
+    "SS": "SuperSummary plot summary page for the book (supersummary.com/<book>/summary/)",
+    "SS-CL": "SuperSummary character list page for the book",
+    "SS-CH": "SuperSummary free chapter-summary page (first section only)",
+    "WP": "Wikipedia article for the book",
+    "AUTH": "Author's own site: Dean Pitchford sample chapter + study guide (deanpitchford.com)",
+    "KIRKUS": "Kirkus review",
+    "PW": "Publishers Weekly review",
+    "SEARCH": "Search-engine summary snippet (weaker; double-check)",
+    "MEM": "Written from general knowledge; no source found yet",
+    "SCHOOL": "Mesa Academy BoTB handout (BoTB.pdf): rules, reading list, study guide and answer key"
+  },
+  "settings": {
+    "mockBattle": {
+      "phase1Rounds": 5,
+      "phase1Seconds": 30,
+      "pointsTitle": 5,
+      "pointsAuthor": 3,
+      "phase2Rounds": 3,
+      "phase2Seconds": 20,
+      "pointsPhase2": 10
+    },
+    "quiz": {
+      "defaultMode": "multiple_choice",
+      "questionsPerQuiz": 10
+    },
+    "leitner": {
+      "boxes": 5,
+      "startBox": 1
+    },
+    "xp": {
+      "perCorrect": 10,
+      "streakBonusEvery": 3,
+      "streakBonus": 5
+    },
+    "coop": {
+      "hearts": 5,
+      "bossHp": 30
+    }
+  },
+  "battles": [
+    {
+      "id": "battle1-2026",
+      "name": "Battle 1",
+      "season": "2026–27",
+      "when": "Fall 2026",
+      "books": [
+        "artemis-fowl",
+        "bunnicula",
+        "captain-nobody",
+        "jeremy-thatcher"
+      ]
+    },
+    {
+      "id": "battle2-2026",
+      "name": "Battle 2",
+      "season": "2026–27",
+      "when": "Date TBA",
+      "books": [
+        "because-of-winn-dixie",
+        "everything-on-a-waffle",
+        "the-crossover",
+        "the-unwanteds"
+      ]
+    },
+    {
+      "id": "battle3-2026",
+      "name": "Battle 3",
+      "season": "2026–27",
+      "when": "Date TBA",
+      "books": [
+        "my-side-of-the-mountain",
+        "new-kid",
+        "riding-freedom",
+        "the-lightning-thief"
+      ]
+    },
+    {
+      "id": "district-2027",
+      "name": "District & Regional",
+      "season": "2026–27",
+      "when": "April – May 5, 2027",
+      "note": "District Semi-finals, District Final, and Regional Battle. All 12 books.",
+      "books": [
+        "artemis-fowl",
+        "bunnicula",
+        "captain-nobody",
+        "jeremy-thatcher",
+        "because-of-winn-dixie",
+        "everything-on-a-waffle",
+        "the-crossover",
+        "the-unwanteds",
+        "my-side-of-the-mountain",
+        "new-kid",
+        "riding-freedom",
+        "the-lightning-thief"
+      ]
+    }
+  ],
+  "competition": {
+    "title": "Battle Day: What to Expect",
+    "intro": "Battle of the Books is a reading tournament. Mesa Academy's Knights compete against other Arizona schools in three battles during the year, and the scores from all three add up.",
+    "sections": [
+      {
+        "icon": "👥",
+        "title": "Your team",
+        "points": [
+          "Teams have two or three students.",
+          "Talk it over! Teammates are supposed to discuss answers and use their time well.",
+          "One person is the spokesperson. They sit in the middle and give the team's answer."
+        ]
+      },
+      {
+        "icon": "1️⃣",
+        "title": "Phase I: “In which book…?” (5 rounds)",
+        "points": [
+          "You hear a clue, then answer with the book's title and author.",
+          "You have 30 seconds to talk it over.",
+          "Correct title = 5 points. Correct author = 3 more points.",
+          "The author only counts if the title is right, so the title matters most!",
+          "Example style: “In which book did a spider spin words into a web?”"
+        ]
+      },
+      {
+        "icon": "2️⃣",
+        "title": "Phase II: short facts (3 rounds)",
+        "points": [
+          "These questions name the book and ask a short, factual question about it.",
+          "You have 20 seconds.",
+          "A correct answer = 10 points. There are no bonus points.",
+          "Example style: “In Where the Red Fern Grows, what were the names of the dogs?”"
+        ]
+      },
+      {
+        "icon": "⏱️",
+        "title": "The clock",
+        "points": [
+          "The timer starts as soon as the question has been read.",
+          "You'll hear a five-second warning.",
+          "When time is called, no more answers, unless your spokesperson has already started. “Um…” and “Uh…” don't count as starting!",
+          "You can ask to hear the question again, but the clock keeps running while it's re-read.",
+          "If the judges ask you to be more specific, you get 10 more seconds."
+        ]
+      },
+      {
+        "icon": "📚",
+        "title": "Titles and authors",
+        "points": [
+          "Say the title exactly, including little words like “The”.",
+          "For the author, the last name alone is fine. A wrong first name with the right last name still counts.",
+          "Close-enough pronunciation of the author's last name is OK."
+        ]
+      },
+      {
+        "icon": "🎯",
+        "title": "Always guess",
+        "points": [
+          "Wrong answers never lose points, so always give an answer.",
+          "At school battles, the questioner only says “Correct” or “Incorrect”. They won't tell you the right answer, and the question isn't passed to another team."
+        ]
+      },
+      {
+        "icon": "⚖️",
+        "title": "Challenges and judges",
+        "points": [
+          "If your answer is a little different from the written one, the judges decide.",
+          "If you're sure you were right, your team can challenge, but only before the next team's question starts.",
+          "For a challenge, the judges look in the book and your team gets 3 minutes to find the proof.",
+          "The judges' decision is final."
+        ]
+      },
+      {
+        "icon": "🤝",
+        "title": "Be a good Knight",
+        "points": [
+          "Be on your best behavior. Talking out of turn or poor sportsmanship can get a team disqualified.",
+          "Be on time. A battle waits at most five minutes, and missed rounds can't be made up."
+        ]
+      },
+      {
+        "icon": "🏆",
+        "title": "How the season works",
+        "points": [
+          "Scores from Battles 1, 2 and 3 are added together.",
+          "Each school sends its top-scoring team to the District Semi-finals in April.",
+          "The top four teams from each semi-final go on to the MPS District Final.",
+          "The top three teams at the District Final go to the Regional Battle on May 5.",
+          "Ties are broken with extra Phase II questions until one team misses and another gets theirs right."
+        ]
+      }
+    ],
+    "tips": [
+      "Memorize every title and the author's last name. It's the easiest way to earn points.",
+      "Practice saying titles exactly, little words included.",
+      "Pick your spokesperson before the battle, and agree on how you'll decide when you disagree.",
+      "Watch the clock. Settle on an answer before the five-second warning.",
+      "Not sure? Guess anyway. A guess can't cost you points."
+    ],
+    "dates": [
+      {
+        "when": "October 1, 2026",
+        "what": "Permission slip and T-shirt order due"
+      },
+      {
+        "when": "Lunchtime, in the library",
+        "what": "“Knight Training” practice sessions"
+      },
+      {
+        "when": "To be announced",
+        "what": "Battle 1, 2 and 3 dates (watch ParentSquare)"
+      },
+      {
+        "when": "April 2027",
+        "what": "District Semi-finals (each school's top team)"
+      },
+      {
+        "when": "After the semi-finals",
+        "what": "MPS District Final (top 4 from each semi-final)"
+      },
+      {
+        "when": "May 5, 2027",
+        "what": "Regional Battle (top 3 from the District Final)"
+      }
+    ],
+    "source": "Summarized from the Mesa Academy Battle of the Books handout. Questions? Ask the school librarian."
+  },
+  "books": [
+    {
+      "id": "artemis-fowl",
+      "title": "Artemis Fowl",
+      "author": "Eoin Colfer",
+      "authorAccept": [
+        "Colfer",
+        "Eoin Colfer"
+      ],
+      "pages": 277,
+      "genre": "Fantasy",
+      "lexile": "600L",
+      "published": 2001,
+      "color": "#1f7a4d",
+      "badge": {
+        "name": "Fairy Gold",
+        "icon": "🪙",
+        "tiers": [
+          {
+            "at": 0.0,
+            "label": "Pickpocket",
+            "icon": "🔍"
+          },
+          {
+            "at": 0.25,
+            "label": "Schemer",
+            "icon": "🗝️"
+          },
+          {
+            "at": 0.5,
+            "label": "Master Planner",
+            "icon": "🧠"
+          },
+          {
+            "at": 0.75,
+            "label": "Criminal Genius",
+            "icon": "🪙"
+          },
+          {
+            "at": 1.0,
+            "label": "Ton of Gold",
+            "icon": "👑"
+          }
+        ]
+      },
+      "coopBoss": {
+        "name": "The Rogue Troll",
+        "icon": "🧌"
+      },
+      "factSheet": {
+        "oneLiner": "A 12-year-old criminal genius kidnaps a fairy police officer to get a ransom of fairy gold.",
+        "summary": "Artemis Fowl II is a 12-year-old genius from an Irish family of criminals. His father has disappeared and the family fortune is gone, so Artemis makes a bold plan: steal the secrets of the fairies, kidnap one, and demand gold as ransom. He captures Captain Holly Short of the fairy police (the LEP). The fairies surround his home, Fowl Manor, freeze time around it, and try everything to rescue her — but Artemis has a plan for almost everything.",
+        "characters": [
+          {
+            "emoji": "🧠",
+            "name": "Artemis Fowl II",
+            "role": "Main character",
+            "desc": "12-year-old genius and heir to a criminal family; wants fairy gold to rebuild the family fortune.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🕶️",
+            "name": "Butler",
+            "role": "Bodyguard",
+            "desc": "Artemis's huge, highly trained bodyguard; his family has protected the Fowls for generations.",
+            "source": "SS-CL"
+          },
+          {
+            "emoji": "🧺",
+            "name": "Juliet",
+            "role": "Butler's sister",
+            "desc": "Butler's younger sister; a maid at Fowl Manor who looks after Artemis's mother.",
+            "source": "SS-CL"
+          },
+          {
+            "emoji": "🛏️",
+            "name": "Angeline Fowl",
+            "role": "Artemis's mother",
+            "desc": "Has stayed in her room, unwell, since her husband disappeared.",
+            "source": "SS"
+          },
+          {
+            "emoji": "⚓",
+            "name": "Artemis Fowl I",
+            "role": "Artemis's father",
+            "desc": "Went missing about a year earlier on a shipping venture to Russia.",
+            "source": "SS-CL"
+          },
+          {
+            "emoji": "🧝‍♀️",
+            "name": "Captain Holly Short",
+            "role": "Kidnapped fairy",
+            "desc": "An elf; the first female officer in the LEP's recon unit. Artemis kidnaps her.",
+            "source": "SS; WP"
+          },
+          {
+            "emoji": "🎖️",
+            "name": "Commander Julius Root",
+            "role": "LEP commander",
+            "desc": "Red-faced, short-tempered boss of LEP Recon; leads the siege of Fowl Manor.",
+            "source": "SS-CL; WP"
+          },
+          {
+            "emoji": "🐴",
+            "name": "Foaly",
+            "role": "LEP tech expert",
+            "desc": "A paranoid centaur who runs the fairies' technology; wears a tinfoil hat.",
+            "source": "SS-CL"
+          },
+          {
+            "emoji": "⛏️",
+            "name": "Mulch Diggums",
+            "role": "Dwarf thief",
+            "desc": "A kleptomaniac dwarf criminal who tunnels by eating dirt; sent to break into Fowl Manor.",
+            "source": "SS-CL"
+          },
+          {
+            "emoji": "😤",
+            "name": "Lieutenant Briar Cudgeon",
+            "role": "Ambitious officer",
+            "desc": "LEP officer who briefly takes over the operation and sends a troll into Fowl Manor.",
+            "source": "SS; WP"
+          },
+          {
+            "emoji": "🪖",
+            "name": "Captain Trouble Kelp",
+            "role": "LEP officer",
+            "desc": "Takes part in the attack on Fowl Manor and runs into Butler.",
+            "source": "SS-CL"
+          },
+          {
+            "emoji": "🕵️",
+            "name": "Nguyen",
+            "role": "Informant",
+            "desc": "Man in Ho Chi Minh City who leads Artemis to a fairy healer.",
+            "source": "SS-CH; SS-CL"
+          },
+          {
+            "emoji": "🧚",
+            "name": "The fairy healer",
+            "role": "Owner of the Book",
+            "desc": "A fairy in Ho Chi Minh City with a drinking problem; Artemis gets her Book and gives her a cure.",
+            "source": "SS; WP"
+          },
+          {
+            "emoji": "📋",
+            "name": "Dr. J. Argon",
+            "role": "Fairy psychiatrist",
+            "desc": "In the epilogue, the story turns out to be his LEP case file on Artemis.",
+            "source": "SS; SS-CL"
+          }
+        ],
+        "settings": [
+          {
+            "emoji": "🌆",
+            "name": "Ho Chi Minh City, Vietnam",
+            "desc": "Where Artemis and Butler find the fairy healer and the Book.",
+            "source": "SS; WP"
+          },
+          {
+            "emoji": "🏰",
+            "name": "Fowl Manor, Ireland",
+            "desc": "The Fowl family mansion; Holly is held prisoner here.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🏙️",
+            "name": "Haven City",
+            "desc": "The fairies' city, deep underground.",
+            "source": "WP"
+          },
+          {
+            "emoji": "🌳",
+            "name": "Tara, Ireland",
+            "desc": "Where Holly goes to do the Ritual at an ancient oak — and gets kidnapped.",
+            "source": "WP"
+          },
+          {
+            "emoji": "🚢",
+            "name": "The whaling ship",
+            "desc": "A decoy: Artemis puts Holly's locator beacon and a bomb on it.",
+            "source": "SS"
+          }
+        ],
+        "keyObjects": [
+          {
+            "emoji": "📕",
+            "name": "The Book of the People",
+            "desc": "The fairies' secret rulebook, written in Gnommish. Artemis translates it with computer software.",
+            "source": "SS; WP"
+          },
+          {
+            "emoji": "🌰",
+            "name": "The acorn",
+            "desc": "Fairies restore their magic by taking an acorn from an ancient oak near a river bend under a full moon and planting it somewhere else.",
+            "source": "WP"
+          },
+          {
+            "emoji": "🪙",
+            "name": "One ton of 24-carat gold",
+            "desc": "Artemis's ransom demand for Holly.",
+            "source": "WP; SS"
+          },
+          {
+            "emoji": "⏸️",
+            "name": "Time-stop",
+            "desc": "Fairy technology that freezes time around Fowl Manor during the siege.",
+            "source": "SS; WP"
+          },
+          {
+            "emoji": "💣",
+            "name": "The blue rinse",
+            "desc": "A biological bomb that destroys living things but leaves buildings standing.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🎯",
+            "name": "Tranquilizer dart gun",
+            "desc": "Butler uses it to capture Holly.",
+            "source": "WP"
+          },
+          {
+            "emoji": "🍾",
+            "name": "Sedative (sleeping pills) in champagne",
+            "desc": "Artemis's trick for slipping out of the time-stop.",
+            "source": "SS; WP"
+          },
+          {
+            "emoji": "📡",
+            "name": "Foaly's tinfoil hat",
+            "desc": "Worn to block imagined spying.",
+            "source": "SS-CL"
+          }
+        ],
+        "themes": [
+          {
+            "name": "Brains vs. brawn",
+            "desc": "Artemis wins with planning and cleverness, while others rely on strength or magic."
+          },
+          {
+            "name": "Family",
+            "desc": "Behind the crime, Artemis is trying to save his broken family: his missing father and sick mother."
+          },
+          {
+            "name": "Good guys and bad guys",
+            "desc": "The 'villain' is the main character, and both sides do good and bad things."
+          },
+          {
+            "name": "Magic vs. technology",
+            "desc": "Fairy magic goes up against human gadgets, and Foaly's science matches Artemis's."
+          },
+          {
+            "name": "Humans and nature",
+            "desc": "The fairies hid underground to get away from humans, who harm the Earth."
+          }
+        ],
+        "outline": [
+          {
+            "section": "Prologue – Ch. 2",
+            "title": "The Book",
+            "summary": "Artemis (age 12) and Butler go to Ho Chi Minh City. Their contact, Nguyen, leads them to a fairy healer. Artemis gets her Book of the People and gives her a shot that cures her drinking. Back at Fowl Manor in Ireland, Artemis translates the Gnommish Book. His father is missing after a shipping disaster, and his mother stays shut in her room.",
+            "source": "SS; SS-CH"
+          },
+          {
+            "section": "Ch. 3 – 4",
+            "title": "Holly and the Abduction",
+            "summary": "Captain Holly Short of LEP Recon is sent after a troll that has escaped to the surface. She saves the humans, but it uses up her magic. Commander Root orders her to do the Ritual, so she goes to Ireland. Artemis and Butler have been watching the likely Ritual sites. Butler hits her with a tranquilizer dart while she's renewing her magic, and they take her back to Fowl Manor.",
+            "source": "SS; WP; parent review"
+          },
+          {
+            "section": "Ch. 5 – 6",
+            "title": "Missing in Action / Siege",
+            "summary": "The LEP realizes Holly has been kidnapped. Root follows her locator beacon to a whaling ship, but Artemis planted it there with a bomb, and Root barely escapes. Holly wakes at Fowl Manor, and Artemis tricks her into thinking she spilled fairy secrets under truth serum. The LEP surrounds the manor, and Butler beats the officers they send in. The fairies start a time-stop, and Artemis demands one ton of gold, saying he knows how to escape the time-stop.",
+            "source": "SS; WP; parent review"
+          },
+          {
+            "section": "Ch. 7 – 8",
+            "title": "Mulch and the Troll",
+            "summary": "Root sends Mulch Diggums, a dwarf thief who can enter houses uninvited, to tunnel in. Mulch finds Artemis's copy of the Book, then fakes his own death and escapes. Holly breaks her cell floor, finds soil, and does the Ritual to get her magic back. Cudgeon takes over and sends a troll into the manor. Butler nearly dies, but Holly heals him and he defeats the troll. Root is put back in charge.",
+            "source": "SS; WP"
+          },
+          {
+            "section": "Ch. 9 – Epilogue",
+            "title": "The Escape",
+            "summary": "The fairies hand over the gold. Holly takes half of it back in exchange for granting Artemis a wish. Artemis, Butler, and Juliet drink sedative-laced champagne. The fairies set off the blue rinse, but when they try to enter, they get sick, which proves Artemis is alive. By falling asleep, the humans slipped out of the time-stop. The fairies leave, and Artemis's wish comes true: his mother is healed. The epilogue shows the story is Dr. Argon's case file.",
+            "source": "SS; WP"
+          }
+        ]
+      },
+      "arLevel": 5.0,
+      "arPoints": 9,
+      "status": "ready"
+    },
+    {
+      "id": "bunnicula",
+      "title": "Bunnicula",
+      "author": "Deborah and James Howe",
+      "authorAccept": [
+        "Howe",
+        "James Howe",
+        "Deborah Howe",
+        "Deborah and James Howe",
+        "James and Deborah Howe",
+        "the Howes"
+      ],
+      "pages": 98,
+      "genre": "Animal Fantasy / Mystery",
+      "lexile": "700L",
+      "published": 1979,
+      "color": "#6b2d8f",
+      "badge": {
+        "name": "Vampire Bunny",
+        "icon": "🐰",
+        "tiers": [
+          {
+            "at": 0.0,
+            "label": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "at": 0.25,
+            "label": "White Tomato",
+            "icon": "🍅"
+          },
+          {
+            "at": 0.5,
+            "label": "Garlic Guard",
+            "icon": "🧄"
+          },
+          {
+            "at": 0.75,
+            "label": "Fang Finder",
+            "icon": "🦇"
+          },
+          {
+            "at": 1.0,
+            "label": "Count Bunnicula",
+            "icon": "🧛"
+          }
+        ]
+      },
+      "coopBoss": {
+        "name": "The Vegetable Vampire",
+        "icon": "🧛"
+      },
+      "factSheet": {
+        "oneLiner": "The family dog tells how the family cat became sure their new pet bunny was a vampire.",
+        "summary": "Harold, the Monroe family's dog, tells the story. The Monroes find a small rabbit at a movie theater while watching Dracula and bring him home. Chester the cat reads lots of horror books, and he decides the bunny, Bunnicula, is a vampire: he sleeps all day, has fangs, and vegetables start turning white. Chester tries garlic, a 'steak' through the heart, and more to stop him, until everything ends in chaos and a trip to the vet.",
+        "characters": [
+          {
+            "emoji": "🐕",
+            "name": "Harold",
+            "role": "Narrator (dog)",
+            "desc": "The easygoing, snack-loving family dog who tells the story.",
+            "source": "SS; SS-CL"
+          },
+          {
+            "emoji": "🐈",
+            "name": "Chester",
+            "role": "Cat",
+            "desc": "Well-read tabby cat who loves horror and mystery books; sure Bunnicula is a vampire.",
+            "source": "SS-CL"
+          },
+          {
+            "emoji": "🐰",
+            "name": "Bunnicula",
+            "role": "The rabbit",
+            "desc": "Tiny rabbit with black markings like a cape and pointy fangs; sleeps all day.",
+            "source": "SS-CL; WP"
+          },
+          {
+            "emoji": "👦",
+            "name": "Toby Monroe",
+            "role": "Younger son",
+            "desc": "Kind, playful younger son; shares late-night snacks with Harold.",
+            "source": "SS-CL"
+          },
+          {
+            "emoji": "🧒",
+            "name": "Pete Monroe",
+            "role": "Older son",
+            "desc": "Older son; argues with Toby and likes to show off.",
+            "source": "SS-CL"
+          },
+          {
+            "emoji": "📚",
+            "name": "Mr. Monroe",
+            "role": "Father",
+            "desc": "An English professor whose many books Chester reads.",
+            "source": "SS-CL"
+          },
+          {
+            "emoji": "👩",
+            "name": "Mrs. Monroe",
+            "role": "Mother",
+            "desc": "The family peacemaker; she names the bunny Bunnicula.",
+            "source": "SS; SS-CL"
+          }
+        ],
+        "settings": [
+          {
+            "emoji": "🎬",
+            "name": "The movie theater",
+            "desc": "Where the Monroes find the bunny while watching Dracula.",
+            "source": "SS; WP"
+          },
+          {
+            "emoji": "🏠",
+            "name": "The Monroe house",
+            "desc": "Most of the story happens here, especially the living room and kitchen.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🏥",
+            "name": "The vet's office",
+            "desc": "Where the family takes the pets at the end.",
+            "source": "SS; WP"
+          }
+        ],
+        "keyObjects": [
+          {
+            "emoji": "✉️",
+            "name": "The note",
+            "desc": "Tied to the bunny; written in an old dialect from the Carpathian Mountains.",
+            "source": "WP; KIRKUS"
+          },
+          {
+            "emoji": "🍅",
+            "name": "White vegetables",
+            "desc": "Vegetables drained of juice and turned white, each with two tiny holes. The first is a tomato, and lettuce and zucchini follow.",
+            "source": "WP; KIRKUS; SEARCH"
+          },
+          {
+            "emoji": "🧄",
+            "name": "Garlic",
+            "desc": "Chester spreads it around the house to keep the 'vampire' away.",
+            "source": "SS; WP"
+          },
+          {
+            "emoji": "🥩",
+            "name": "Raw steak",
+            "desc": "Chester mixes up 'stake' and 'steak' and tries to use a steak on Bunnicula.",
+            "source": "SS; WP"
+          },
+          {
+            "emoji": "📖",
+            "name": "Chester's books",
+            "desc": "Horror and vampire books Chester reads; they feed his theory.",
+            "source": "SS; SS-CL"
+          },
+          {
+            "emoji": "🥕",
+            "name": "Carrot juice / vegetable juice",
+            "desc": "The vet puts the starving Bunnicula on a liquid diet and gives him carrot juice. It works so well that the Monroes keep feeding him vegetable juice.",
+            "source": "SS; WP; parent review"
+          }
+        ],
+        "themes": [
+          {
+            "name": "Jumping to conclusions",
+            "desc": "Chester's imagination runs wild, and his 'evidence' leads him to do silly and harmful things."
+          },
+          {
+            "name": "Friendship",
+            "desc": "Harold and Chester's friendship is tested when they disagree about the bunny."
+          },
+          {
+            "name": "Jealousy of the new arrival",
+            "desc": "The vet says Chester's trouble is a kind of sibling rivalry with the new pet."
+          },
+          {
+            "name": "Kindness to someone different",
+            "desc": "Harold chooses to help the strange little bunny instead of fearing him."
+          }
+        ],
+        "outline": [
+          {
+            "section": "Editor's Note – Ch. 1",
+            "title": "The Arrival",
+            "summary": "The book is presented as a manuscript written by a dog. On a dark and stormy night, the Monroes find a tiny bunny with a note at a showing of Dracula. Mrs. Monroe names him Bunnicula.",
+            "source": "SS; WP; Editor's Note (parent review)"
+          },
+          {
+            "section": "Ch. 2 – 3",
+            "title": "Suspicion",
+            "summary": "Pete and Toby fight over caring for the bunny, and Harold feels left out. Chester notices that the bunny's markings look like a cape and that he sleeps all day. Using his books, Chester begins to suspect a vampire.",
+            "source": "SS"
+          },
+          {
+            "section": "Ch. 3 – 4",
+            "title": "The White Vegetables",
+            "summary": "Chester tells Harold that Bunnicula has been getting out of his cage. Mr. Monroe finds the first drained vegetable, a white tomato. Later, Harold joins Chester's night watch. They see Bunnicula leaving the kitchen and find a white zucchini, and Harold starts taking Chester's vampire idea more seriously.",
+            "source": "SS; SS-CH; parent review"
+          },
+          {
+            "section": "Ch. 5 – 6",
+            "title": "Chester Takes Action",
+            "summary": "More vegetables turn white, and Chester tries and fails to warn the Monroes that Bunnicula is a vampire. He puts garlic around the bunny's cage and gets a bath for smelling of it. Then he mixes up 'stake' and 'steak' and attacks Bunnicula with a raw steak. Finally he tries water, and his behavior gets him shut outside.",
+            "source": "SS; WP; parent review"
+          },
+          {
+            "section": "Ch. 7 – 9",
+            "title": "Starvation, Salad, and the Vet",
+            "summary": "Harold figures out that Chester is keeping Bunnicula away from food on purpose, and the bunny grows weak. Harold brings Bunnicula to the salad, Chester attacks, and the dinner table turns to chaos. The family takes the pets to the vet. The vet gives Bunnicula carrot juice, and Chester starts seeing a cat psychiatrist.",
+            "source": "SS; WP; parent review"
+          }
+        ]
+      },
+      "arLevel": 4.2,
+      "arPoints": 2,
+      "status": "ready"
+    },
+    {
+      "id": "captain-nobody",
+      "title": "Captain Nobody",
+      "author": "Dean Pitchford",
+      "authorAccept": [
+        "Pitchford",
+        "Dean Pitchford"
+      ],
+      "pages": 195,
+      "genre": "Realistic Fiction",
+      "lexile": "750L",
+      "published": 2009,
+      "color": "#c0392b",
+      "badge": {
+        "name": "Hero's Cape",
+        "icon": "🦸",
+        "tiers": [
+          {
+            "at": 0.0,
+            "label": "Nobody",
+            "icon": "👤"
+          },
+          {
+            "at": 0.25,
+            "label": "Sidekick",
+            "icon": "🧢"
+          },
+          {
+            "at": 0.5,
+            "label": "Crime Stopper",
+            "icon": "🚨"
+          },
+          {
+            "at": 0.75,
+            "label": "Local Hero",
+            "icon": "🏈"
+          },
+          {
+            "at": 1.0,
+            "label": "Captain Nobody",
+            "icon": "🦸"
+          }
+        ]
+      },
+      "coopBoss": {
+        "name": "The Merrimac Chargers",
+        "icon": "🏈"
+      },
+      "factSheet": {
+        "oneLiner": "After his football-star brother falls into a coma, a 10-year-old boy becomes a homemade superhero.",
+        "summary": "Newt Newman is a quiet 10-year-old who feels invisible next to his big brother Chris, the star quarterback in their town of Appleton. When Chris is knocked into a coma during the Big Game, Newt's friends Cecil and JJ help him turn Chris's old football clothes into a Halloween costume, and Captain Nobody is born. Newt keeps wearing it and finds the courage to help people, stop a robbery, and learn the truth about his brother's accident.",
+        "characters": [
+          {
+            "emoji": "🦸",
+            "name": "Newton \"Newt\" Newman",
+            "role": "Narrator / Captain Nobody",
+            "desc": "Short, skinny, freckled 10-year-old who feels overlooked, is afraid of heights, and draws cartoons.",
+            "source": "AUTH; SS"
+          },
+          {
+            "emoji": "🏈",
+            "name": "Chris Newman",
+            "role": "Newt's big brother",
+            "desc": "Star quarterback for Fillmore High; falls into a coma after a hit in the Big Game.",
+            "source": "AUTH; SS"
+          },
+          {
+            "emoji": "📞",
+            "name": "Mom",
+            "role": "Newt's mother",
+            "desc": "Busy real-estate agent who is always on the phone and often forgetful.",
+            "source": "AUTH"
+          },
+          {
+            "emoji": "🏗️",
+            "name": "Dad",
+            "role": "Newt's father",
+            "desc": "Supervisor at a company that builds buildings; also always busy.",
+            "source": "AUTH"
+          },
+          {
+            "emoji": "🥁",
+            "name": "Cecil",
+            "role": "Best friend",
+            "desc": "One of Newt's two best friends; plastic garbage bags creep him out.",
+            "source": "AUTH; SS"
+          },
+          {
+            "emoji": "📝",
+            "name": "JJ",
+            "role": "Best friend",
+            "desc": "Newt's other best friend; scared of spiders and bothered by bad grammar.",
+            "source": "AUTH; SS"
+          },
+          {
+            "emoji": "👴",
+            "name": "Mr. Clay",
+            "role": "Lost old man",
+            "desc": "Elderly man with Alzheimer's whom Captain Nobody walks home.",
+            "source": "SS"
+          },
+          {
+            "emoji": "😠",
+            "name": "Ricky",
+            "role": "Bully",
+            "desc": "Cousin of Reggie; picks on Newt at school.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🎨",
+            "name": "Reggie",
+            "role": "Blamed player",
+            "desc": "The player blamed for the tackle that hurt Chris; later gets stuck on the water tower.",
+            "source": "SS; SEARCH"
+          },
+          {
+            "emoji": "👕",
+            "name": "Darryl",
+            "role": "Chris's teammate",
+            "desc": "Newt remembers that it was really Darryl, a teammate, who caused Chris's accident.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🥔",
+            "name": "Mrs. Carole Hennessey",
+            "role": "Neighbor",
+            "desc": "Lives across the street; in charge of potato chips for the tailgate party.",
+            "source": "AUTH"
+          }
+        ],
+        "settings": [
+          {
+            "emoji": "🍎",
+            "name": "Appleton",
+            "desc": "Newt's hometown.",
+            "source": "AUTH; SS"
+          },
+          {
+            "emoji": "🏟️",
+            "name": "The football stadium",
+            "desc": "Site of the Big Game between Fillmore High and Merrimac High.",
+            "source": "AUTH"
+          },
+          {
+            "emoji": "💍",
+            "name": "Sullivan's Jewelry store",
+            "desc": "Where Captain Nobody accidentally walks in on a robbery.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🛣️",
+            "name": "The highway",
+            "desc": "Where Newt stops traffic to save the mascot and a small plane lands.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🗼",
+            "name": "Appleton's water tower",
+            "desc": "Where the climax happens and Newt falls.",
+            "source": "AUTH; SS"
+          },
+          {
+            "emoji": "🏥",
+            "name": "The hospital",
+            "desc": "Where Chris lies in a coma, and later Newt too, with a broken ankle and ribs.",
+            "source": "SS"
+          }
+        ],
+        "keyObjects": [
+          {
+            "emoji": "👕",
+            "name": "Chris's jersey and old clothes",
+            "desc": "Turned into the Captain Nobody costume.",
+            "source": "SS; AUTH"
+          },
+          {
+            "emoji": "🔤",
+            "name": "The initials C.N.",
+            "desc": "Chris's initials, which Newt turns into 'Captain Nobody'.",
+            "source": "SS"
+          },
+          {
+            "emoji": "📰",
+            "name": "The Appleton Sentinel",
+            "desc": "The town newspaper that hypes the Big Game.",
+            "source": "AUTH"
+          },
+          {
+            "emoji": "🥁",
+            "name": "The bass drum",
+            "desc": "An old drum on top of a dumpster that Cecil wants help getting.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🐾",
+            "name": "Ferocious the ferret",
+            "desc": "The team mascot that escapes onto the highway.",
+            "source": "SS"
+          },
+          {
+            "emoji": "📄",
+            "name": "The crumpled medical report",
+            "desc": "Newt finds it in the trash; it says Chris may never wake up.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🛏️",
+            "name": "The rubber mattress",
+            "desc": "Newt lands on it when he falls from the water tower.",
+            "source": "SS"
+          }
+        ],
+        "themes": [
+          {
+            "name": "Feeling invisible",
+            "desc": "Newt feels overlooked by his busy family and next to his famous brother."
+          },
+          {
+            "name": "Courage and confidence",
+            "desc": "The costume helps Newt find the bravery that was inside him all along."
+          },
+          {
+            "name": "What makes a hero",
+            "desc": "Heroes can be ordinary people who help, like 'a defender of the little guy'."
+          },
+          {
+            "name": "Family and helplessness",
+            "desc": "Newt can save strangers but feels he can't save his own brother."
+          },
+          {
+            "name": "Friendship",
+            "desc": "Cecil and JJ stick by Newt and help him through a hard time."
+          }
+        ],
+        "outline": [
+          {
+            "section": "Prologue",
+            "title": "Falling",
+            "summary": "Newt is falling from Appleton's water tower. As he falls, he remembers how it all started on the morning of the Big Game.",
+            "source": "AUTH"
+          },
+          {
+            "section": "Ch. 1",
+            "title": "Nobody Eats Breakfast",
+            "summary": "On the last Friday in October, Newt makes breakfast, but his busy parents are always on the phone. The newspaper hypes Chris and the Big Game against Merrimac. Newt wakes Chris up with a yell and then sprays him with the garden hose.",
+            "source": "AUTH"
+          },
+          {
+            "section": "Early chapters",
+            "title": "Inner Other and the Big Game",
+            "summary": "Newt, Cecil, and JJ agree to build Halloween costumes that show their 'inner other'. At the Big Game, Newt ends up outside the stadium and watches from behind a fence. Chris scores the winning touchdown but doesn't get up, and he's in a coma.",
+            "source": "SS; AUTH"
+          },
+          {
+            "section": "Middle chapters",
+            "title": "Captain Nobody Is Born",
+            "summary": "On Halloween, Cecil and JJ turn Chris's old jersey and clothes into a superhero costume. Newt uses Chris's initials, C.N., to name himself Captain Nobody. He wears it to school, where kids tease him at first. He helps Cecil get a bass drum off a dumpster and then walks a lost Mr. Clay home.",
+            "source": "SS"
+          },
+          {
+            "section": "Middle chapters",
+            "title": "Hero Around Town",
+            "summary": "Ricky, Reggie's cousin, confronts Newt, and the class sticks up for Newt. JJ's complaint about the grammar on a sign takes Newt into Sullivan's Jewelry during a robbery, and the owner sets off the alarm. Newt finds a medical report saying Chris may never wake. The mascot ferret escapes onto the highway, and when Newt stops traffic, a small plane is able to make an emergency landing.",
+            "source": "SS"
+          },
+          {
+            "section": "Final chapters",
+            "title": "The Water Tower",
+            "summary": "In a dream, Newt remembers that a teammate, Darryl, really caused Chris's injury. Reggie is on the water tower, and people fear the worst, but he's just stuck after trying to paint graffiti. Captain Nobody climbs up to help and falls, landing on a rubber mattress, and then Reggie lands on him. In the hospital, Newt tells the truth about the accident. When Newt visits Chris, Chris wakes up. Newt later leads the victory parade as Captain Nobody.",
+            "source": "SS"
+          }
+        ]
+      },
+      "arLevel": 4.7,
+      "arPoints": 5,
+      "status": "ready"
+    },
+    {
+      "id": "jeremy-thatcher",
+      "title": "Jeremy Thatcher, Dragon Hatcher",
+      "author": "Bruce Coville",
+      "authorAccept": [
+        "Coville",
+        "Bruce Coville"
+      ],
+      "titleAccept": [
+        "Jeremy Thatcher",
+        "Jeremy Thatcher Dragon Hatcher",
+        "Dragon Hatcher"
+      ],
+      "pages": 151,
+      "genre": "Fantasy",
+      "lexile": "710L",
+      "published": 1991,
+      "color": "#b8860b",
+      "badge": {
+        "name": "Dragon Egg",
+        "icon": "🥚",
+        "tiers": [
+          {
+            "at": 0.0,
+            "label": "Marbled Egg",
+            "icon": "🥚"
+          },
+          {
+            "at": 0.25,
+            "label": "Cracking",
+            "icon": "🪺"
+          },
+          {
+            "at": 0.5,
+            "label": "Hatchling",
+            "icon": "🐣"
+          },
+          {
+            "at": 0.75,
+            "label": "Young Dragon",
+            "icon": "🦎"
+          },
+          {
+            "at": 1.0,
+            "label": "Full-Grown Dragon",
+            "icon": "🐉"
+          }
+        ]
+      },
+      "coopBoss": {
+        "name": "The Playground Bullies",
+        "icon": "😠"
+      },
+      "factSheet": {
+        "oneLiner": "A sixth-grade artist buys a strange sphere at a magic shop, and it hatches into a dragon only a few people can see.",
+        "summary": "Jeremy Thatcher loves to draw, but his art teacher, Mr. Kravitz, is always criticizing him. Running from bullies and from Mary Lou Hutton, who has a crush on him, Jeremy finds Elives' Magic Supplies and buys a colorful sphere for a quarter. It's a dragon egg. The baby dragon, Tiamat, hatches under the full moon, shares thoughts with Jeremy, and grows fast. Jeremy has to keep her secret, care for her, and finally send her home to the dragons' world on Midsummer Night.",
+        "characters": [
+          {
+            "emoji": "🎨",
+            "name": "Jeremy Thatcher",
+            "role": "Main character",
+            "desc": "Sixth-grader who loves art; son of a veterinarian; hatches and raises Tiamat.",
+            "source": "SS; SS-CL"
+          },
+          {
+            "emoji": "🐉",
+            "name": "Tiamat",
+            "role": "The dragon",
+            "desc": "Red dragon with emerald-green eyes who talks in mental pictures; invisible to most people.",
+            "source": "SS; SS-CL"
+          },
+          {
+            "emoji": "💜",
+            "name": "Mary Lou Hutton",
+            "role": "Classmate",
+            "desc": "Has a crush on Jeremy and writes notes on purple paper; her father is on the school board; she can see Tiamat.",
+            "source": "SS; SS-CL"
+          },
+          {
+            "emoji": "👓",
+            "name": "Specimen (\"Spess\")",
+            "role": "Best friend",
+            "desc": "Jeremy's best friend: thick glasses and a talent for art.",
+            "source": "SS; SS-CH; SS-CL"
+          },
+          {
+            "emoji": "🧑‍🏫",
+            "name": "Mr. Kravitz",
+            "role": "Art teacher",
+            "desc": "Strict art teacher who forbids fantasy art and embarrasses Jeremy; secretly jealous of his talent.",
+            "source": "SS; SS-CL"
+          },
+          {
+            "emoji": "📖",
+            "name": "Miss Hyacinth Priest",
+            "role": "Children's librarian",
+            "desc": "Gives Jeremy a dragon book written by Mr. Elives; it turns out she once raised a dragon too.",
+            "source": "SS; SS-CL"
+          },
+          {
+            "emoji": "🔮",
+            "name": "Mr. S. H. Elives",
+            "role": "Magic shop owner",
+            "desc": "Stern old owner of Elives' Magic Supplies; sells Jeremy the egg.",
+            "source": "SS; SS-CL"
+          },
+          {
+            "emoji": "🩺",
+            "name": "Dr. Thatcher",
+            "role": "Jeremy's father",
+            "desc": "Veterinarian who is calm and easily amused.",
+            "source": "SS; SS-CL"
+          },
+          {
+            "emoji": "🍽️",
+            "name": "Mrs. Thatcher",
+            "role": "Jeremy's mother",
+            "desc": "Runs the house and plans the dinner with the Huttons.",
+            "source": "SS; SS-CL"
+          },
+          {
+            "emoji": "😠",
+            "name": "Howard Morton & Freddy the Frog Killer",
+            "role": "Bullies",
+            "desc": "The two bullies Jeremy runs from in chapter 1.",
+            "source": "SS-CH; SS-CL"
+          },
+          {
+            "emoji": "🏫",
+            "name": "Mr. Martinez",
+            "role": "Principal",
+            "desc": "Kind, understanding school principal.",
+            "source": "SS-CL"
+          },
+          {
+            "emoji": "🐶",
+            "name": "Grief",
+            "role": "Family dog",
+            "desc": "The Thatchers' big, drooly dog; pulls the tablecloth off during the dinner disaster.",
+            "source": "SS; SS-CL"
+          }
+        ],
+        "settings": [
+          {
+            "emoji": "🔮",
+            "name": "Elives' Magic Supplies",
+            "desc": "The mysterious magic shop that seems to appear only when it wants to.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🛏️",
+            "name": "Jeremy's house and bedroom",
+            "desc": "Where Tiamat hatches and first lives; she once naps in his sock drawer.",
+            "source": "SS; SEARCH"
+          },
+          {
+            "emoji": "🖌️",
+            "name": "The school art room",
+            "desc": "Mr. Kravitz's class.",
+            "source": "SS"
+          },
+          {
+            "emoji": "📚",
+            "name": "The library",
+            "desc": "Where Miss Priest helps Jeremy.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🛖",
+            "name": "The barn",
+            "desc": "On the family property; Tiamat moves there when she gets too big for the house.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🏘️",
+            "name": "Blodgett's Crossing",
+            "desc": "The town where Dr. Thatcher has his vet practice.",
+            "source": "SS-CL"
+          }
+        ],
+        "keyObjects": [
+          {
+            "emoji": "🥚",
+            "name": "The multicolored sphere",
+            "desc": "A marbled 'ball' that is really a dragon egg; Jeremy pays a quarter for it.",
+            "source": "SS; KIRKUS"
+          },
+          {
+            "emoji": "📜",
+            "name": "The instructions",
+            "desc": "From Mr. Elives. They say a spell must be spoken under a full moon, and new care tips appear on them later.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🥛",
+            "name": "Chicken livers and milk",
+            "desc": "Baby Tiamat's first food; milk in a soup bowl puts her to sleep.",
+            "source": "SS; SEARCH"
+          },
+          {
+            "emoji": "📘",
+            "name": "The dragon book",
+            "desc": "Written by Mr. Elives; Miss Priest lends it to Jeremy, and Spess takes it by accident.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🦷",
+            "name": "Shed skin, baby teeth, eggshell",
+            "desc": "Jeremy must save them and later uses them to build the gate home.",
+            "source": "SS"
+          },
+          {
+            "emoji": "💎",
+            "name": "The diamond tear",
+            "desc": "Tiamat cries a diamond tear before leaving. Miss Priest has one too.",
+            "source": "SS"
+          },
+          {
+            "emoji": "🏆",
+            "name": "The spring art contest",
+            "desc": "Jeremy is finally old enough for the top prize, painting a department-store window.",
+            "source": "SS; SS-CL"
+          }
+        ],
+        "themes": [
+          {
+            "name": "Art and believing in yourself",
+            "desc": "Jeremy learns to trust his own talent even when a teacher puts it down."
+          },
+          {
+            "name": "Responsibility",
+            "desc": "Caring for a fast-growing dragon is hard, tiring work."
+          },
+          {
+            "name": "Love and letting go",
+            "desc": "Jeremy has to send Tiamat home because he loves her, and he learns that nothing you love is ever truly lost."
+          },
+          {
+            "name": "Friendship",
+            "desc": "His friendship with Spess is tested, and a new one grows with Mary Lou."
+          },
+          {
+            "name": "Honesty",
+            "desc": "Jeremy confesses to the fire prank so his classmates can enter the contest."
+          }
+        ],
+        "outline": [
+          {
+            "section": "Ch. 1 – 2",
+            "title": "Love Letter of Doom",
+            "summary": "Mr. Kravitz embarrasses Jeremy by reading Mary Lou's note aloud in art class. Jeremy and Spess talk about the spring art contest. Running from Mary Lou and the bullies Howard Morton and Freddy the Frog Killer, Jeremy finds Elives' Magic Supplies. Mr. Elives sells him a colorful sphere for a quarter, says the sphere chose him, and gives him strict instructions. Jeremy is magically sent home.",
+            "source": "SS; SS-CH"
+          },
+          {
+            "section": "Ch. 3 – 5",
+            "title": "Hatching",
+            "summary": "The instructions explain how to hatch a dragon egg, with a spell said under a full moon, which Jeremy's dad says is tomorrow night. Jeremy says the spell, falls asleep in a lawn chair, and wakes to see the egg hatch. The instructions now say to feed her chicken livers, keep her secret, and save her skin, teeth, and eggshell. Miss Priest lends him a dragon book written by Mr. Elives. The dragon goes after his gerbils, and Jeremy realizes his mom can't see her.",
+            "source": "SS"
+          },
+          {
+            "section": "Ch. 6 – 8",
+            "title": "Tiamat · Still Life · The Dragon Who Came to Dinner",
+            "summary": "Milk puts the dragon to sleep. She turns down names like Fafnir and Smaug until Jeremy tries Tiamat. Spess can't see her. The boys fail to find the shop again and argue, and the dragon book goes missing. Jeremy leaves school after sensing Tiamat's pain; she has shed her skin. Mary Lou follows him home and can see Tiamat. At the dinner with the Huttons, Tiamat chases the cats and Grief yanks off the tablecloth.",
+            "source": "SS; SEARCH"
+          },
+          {
+            "section": "Ch. 9 – 11",
+            "title": "The Heat Is On · The Hatchers · Confessions",
+            "summary": "Tiamat follows Jeremy to school through the cat door. When Mr. Kravitz insults fantasy art, she feels Jeremy's anger and breathes fire on the teacher's shoe. Kravitz bans the whole class from the art contest. Spess admits he took the dragon book. A letter from Mr. Elives says Tiamat must go home on Midsummer Night. Jeremy confesses, and Kravitz lets the class back in but still bans Jeremy.",
+            "source": "SS"
+          },
+          {
+            "section": "Ch. 12 – Epilogue",
+            "title": "Night Flights · Nothing You Love Is Lost · Epilogue",
+            "summary": "Tiamat moves to the barn, and Mary Lou helps with milk. Jeremy rides on Tiamat's back at night. On Midsummer Night, Tiamat cries a diamond tear. At the magic shop, Jeremy and Miss Priest build a gate from her skin and teeth, and Tiamat goes home. Jeremy is sad all summer. At a Halloween party, his mind-link with Tiamat returns, Miss Priest shows she also has a dragon tear, and Jeremy starts drawing again.",
+            "source": "SS"
+          }
+        ]
+      },
+      "arLevel": 4.9,
+      "arPoints": 4,
+      "status": "ready"
+    },
+    {
+      "id": "because-of-winn-dixie",
+      "title": "Because of Winn-Dixie",
+      "author": "Kate DiCamillo",
+      "authorAccept": [
+        "DiCamillo",
+        "Kate DiCamillo"
+      ],
+      "titleAccept": [
+        "Because of Winn Dixie",
+        "Winn-Dixie",
+        "Winn Dixie"
+      ],
+      "pages": 182,
+      "genre": "Realistic Fiction",
+      "lexile": "610L",
+      "arLevel": 3.9,
+      "arPoints": 3,
+      "published": 2000,
+      "color": "#c77d1a",
+      "status": "skeleton",
+      "badge": {
+        "name": "Best Friend",
+        "icon": "🐕",
+        "tiers": [
+          {
+            "at": 0.0,
+            "label": "Stray",
+            "icon": "🦴"
+          },
+          {
+            "at": 0.25,
+            "label": "New Pal",
+            "icon": "🐾"
+          },
+          {
+            "at": 0.5,
+            "label": "Good Dog",
+            "icon": "🐶"
+          },
+          {
+            "at": 0.75,
+            "label": "Best Friend",
+            "icon": "🐕"
+          },
+          {
+            "at": 1.0,
+            "label": "Top Dog",
+            "icon": "🏅"
+          }
+        ]
+      },
+      "factSheet": {
+        "oneLiner": "",
+        "summary": "",
+        "characters": [],
+        "settings": [],
+        "keyObjects": [],
+        "themes": [],
+        "outline": []
+      }
+    },
+    {
+      "id": "everything-on-a-waffle",
+      "title": "Everything on a Waffle",
+      "author": "Polly Horvath",
+      "authorAccept": [
+        "Horvath",
+        "Polly Horvath"
+      ],
+      "pages": 149,
+      "genre": "Realistic Fiction",
+      "lexile": "950L",
+      "arLevel": 5.8,
+      "arPoints": 5,
+      "published": 2001,
+      "color": "#d4a017",
+      "status": "skeleton",
+      "badge": {
+        "name": "Golden Waffle",
+        "icon": "🧇",
+        "tiers": [
+          {
+            "at": 0.0,
+            "label": "Batter",
+            "icon": "🥣"
+          },
+          {
+            "at": 0.25,
+            "label": "Short Stack",
+            "icon": "🥞"
+          },
+          {
+            "at": 0.5,
+            "label": "Golden Waffle",
+            "icon": "🧇"
+          },
+          {
+            "at": 0.75,
+            "label": "All the Toppings",
+            "icon": "🍓"
+          },
+          {
+            "at": 1.0,
+            "label": "Head Chef",
+            "icon": "👩‍🍳"
+          }
+        ]
+      },
+      "factSheet": {
+        "oneLiner": "",
+        "summary": "",
+        "characters": [],
+        "settings": [],
+        "keyObjects": [],
+        "themes": [],
+        "outline": []
+      }
+    },
+    {
+      "id": "the-crossover",
+      "title": "The Crossover",
+      "author": "Kwame Alexander",
+      "authorAccept": [
+        "Alexander",
+        "Kwame Alexander"
+      ],
+      "titleAccept": [
+        "Crossover"
+      ],
+      "pages": 237,
+      "genre": "Realistic Fiction (novel in verse)",
+      "lexile": "750L",
+      "arLevel": 4.3,
+      "arPoints": 2,
+      "published": 2014,
+      "color": "#e8590c",
+      "status": "skeleton",
+      "badge": {
+        "name": "Swish",
+        "icon": "🏀",
+        "tiers": [
+          {
+            "at": 0.0,
+            "label": "Rookie",
+            "icon": "👟"
+          },
+          {
+            "at": 0.25,
+            "label": "Starter",
+            "icon": "🏀"
+          },
+          {
+            "at": 0.5,
+            "label": "Sharpshooter",
+            "icon": "🎯"
+          },
+          {
+            "at": 0.75,
+            "label": "On Fire",
+            "icon": "🔥"
+          },
+          {
+            "at": 1.0,
+            "label": "MVP",
+            "icon": "🏆"
+          }
+        ]
+      },
+      "factSheet": {
+        "oneLiner": "",
+        "summary": "",
+        "characters": [],
+        "settings": [],
+        "keyObjects": [],
+        "themes": [],
+        "outline": []
+      }
+    },
+    {
+      "id": "the-unwanteds",
+      "title": "The Unwanteds",
+      "author": "Lisa McMann",
+      "authorAccept": [
+        "McMann",
+        "Lisa McMann"
+      ],
+      "titleAccept": [
+        "Unwanteds"
+      ],
+      "pages": 390,
+      "genre": "Fantasy",
+      "lexile": "880L",
+      "arLevel": 5.7,
+      "arPoints": 11,
+      "published": 2011,
+      "color": "#7048e8",
+      "status": "skeleton",
+      "badge": {
+        "name": "Mage",
+        "icon": "🎨",
+        "tiers": [
+          {
+            "at": 0.0,
+            "label": "Blank Page",
+            "icon": "📄"
+          },
+          {
+            "at": 0.25,
+            "label": "Doodler",
+            "icon": "🖍️"
+          },
+          {
+            "at": 0.5,
+            "label": "Artist",
+            "icon": "🎨"
+          },
+          {
+            "at": 0.75,
+            "label": "Mage",
+            "icon": "🪄"
+          },
+          {
+            "at": 1.0,
+            "label": "Master Mage",
+            "icon": "🌟"
+          }
+        ]
+      },
+      "factSheet": {
+        "oneLiner": "",
+        "summary": "",
+        "characters": [],
+        "settings": [],
+        "keyObjects": [],
+        "themes": [],
+        "outline": []
+      }
+    },
+    {
+      "id": "my-side-of-the-mountain",
+      "title": "My Side of the Mountain",
+      "author": "Jean Craighead George",
+      "authorAccept": [
+        "George",
+        "Jean George",
+        "Jean Craighead George"
+      ],
+      "pages": 177,
+      "genre": "Adventure",
+      "lexile": "810L",
+      "arLevel": 5.2,
+      "arPoints": 6,
+      "published": 1959,
+      "color": "#2b8a3e",
+      "status": "skeleton",
+      "badge": {
+        "name": "Mountain Life",
+        "icon": "🏔️",
+        "tiers": [
+          {
+            "at": 0.0,
+            "label": "Seedling",
+            "icon": "🌱"
+          },
+          {
+            "at": 0.25,
+            "label": "Camper",
+            "icon": "🏕️"
+          },
+          {
+            "at": 0.5,
+            "label": "Firekeeper",
+            "icon": "🔥"
+          },
+          {
+            "at": 0.75,
+            "label": "Woodsman",
+            "icon": "🌲"
+          },
+          {
+            "at": 1.0,
+            "label": "Mountain Master",
+            "icon": "🏔️"
+          }
+        ]
+      },
+      "factSheet": {
+        "oneLiner": "",
+        "summary": "",
+        "characters": [],
+        "settings": [],
+        "keyObjects": [],
+        "themes": [],
+        "outline": []
+      }
+    },
+    {
+      "id": "new-kid",
+      "title": "New Kid",
+      "author": "Jerry Craft",
+      "authorAccept": [
+        "Craft",
+        "Jerry Craft"
+      ],
+      "pages": 249,
+      "genre": "Graphic Novel (Realistic)",
+      "lexile": "320L",
+      "arLevel": 2.9,
+      "arPoints": 2,
+      "published": 2019,
+      "color": "#1971c2",
+      "status": "skeleton",
+      "badge": {
+        "name": "Sketchbook",
+        "icon": "✏️",
+        "tiers": [
+          {
+            "at": 0.0,
+            "label": "Doodler",
+            "icon": "✏️"
+          },
+          {
+            "at": 0.25,
+            "label": "New Kid",
+            "icon": "🎒"
+          },
+          {
+            "at": 0.5,
+            "label": "Sketchbook",
+            "icon": "📓"
+          },
+          {
+            "at": 0.75,
+            "label": "Artist",
+            "icon": "🎨"
+          },
+          {
+            "at": 1.0,
+            "label": "Star",
+            "icon": "🌟"
+          }
+        ]
+      },
+      "factSheet": {
+        "oneLiner": "",
+        "summary": "",
+        "characters": [],
+        "settings": [],
+        "keyObjects": [],
+        "themes": [],
+        "outline": []
+      }
+    },
+    {
+      "id": "riding-freedom",
+      "title": "Riding Freedom",
+      "author": "Pam Muñoz Ryan",
+      "authorAccept": [
+        "Ryan",
+        "Pam Ryan",
+        "Pam Munoz Ryan",
+        "Pam Muñoz Ryan"
+      ],
+      "pages": 138,
+      "genre": "Historical Fiction",
+      "lexile": "720L",
+      "arLevel": 4.5,
+      "arPoints": 3,
+      "published": 1998,
+      "color": "#a0522d",
+      "status": "skeleton",
+      "badge": {
+        "name": "Horse Sense",
+        "icon": "🐎",
+        "tiers": [
+          {
+            "at": 0.0,
+            "label": "Stable Hand",
+            "icon": "🐴"
+          },
+          {
+            "at": 0.25,
+            "label": "Rider",
+            "icon": "🐎"
+          },
+          {
+            "at": 0.5,
+            "label": "Driver",
+            "icon": "🏇"
+          },
+          {
+            "at": 0.75,
+            "label": "Trailblazer",
+            "icon": "🤠"
+          },
+          {
+            "at": 1.0,
+            "label": "Legend",
+            "icon": "🏆"
+          }
+        ]
+      },
+      "factSheet": {
+        "oneLiner": "",
+        "summary": "",
+        "characters": [],
+        "settings": [],
+        "keyObjects": [],
+        "themes": [],
+        "outline": []
+      }
+    },
+    {
+      "id": "the-lightning-thief",
+      "title": "The Lightning Thief",
+      "author": "Rick Riordan",
+      "authorAccept": [
+        "Riordan",
+        "Rick Riordan"
+      ],
+      "titleAccept": [
+        "Lightning Thief"
+      ],
+      "pages": 377,
+      "genre": "Fantasy",
+      "lexile": "740L",
+      "arLevel": 4.7,
+      "arPoints": 13,
+      "published": 2005,
+      "color": "#0c8599",
+      "status": "skeleton",
+      "badge": {
+        "name": "Demigod",
+        "icon": "⚡",
+        "tiers": [
+          {
+            "at": 0.0,
+            "label": "Camper",
+            "icon": "🏛️"
+          },
+          {
+            "at": 0.25,
+            "label": "Demigod",
+            "icon": "🛡️"
+          },
+          {
+            "at": 0.5,
+            "label": "Hero",
+            "icon": "⚔️"
+          },
+          {
+            "at": 0.75,
+            "label": "Quester",
+            "icon": "🔱"
+          },
+          {
+            "at": 1.0,
+            "label": "Lightning Thief",
+            "icon": "⚡"
+          }
+        ]
+      },
+      "coopBoss": {
+        "name": "The Minotaur",
+        "icon": "🐂"
+      },
+      "factSheet": {
+        "oneLiner": "",
+        "summary": "",
+        "characters": [],
+        "settings": [],
+        "keyObjects": [],
+        "themes": [],
+        "outline": []
+      }
+    }
+  ],
+  "questions": [
+    {"id": "af-001", "book": "artemis-fowl", "type": "in_which_book", "prompt": "In which book does a 12-year-old genius kidnap a fairy police officer and demand gold as ransom?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The kidnapper is a boy genius from Ireland.", "explanation": "Artemis Fowl, age 12, kidnaps Captain Holly Short of the fairy police (LEP) and demands gold for her return.", "set": "bank"},
+    {"id": "af-002", "book": "artemis-fowl", "type": "in_which_book", "prompt": "In which book does a boy and his bodyguard fly to Ho Chi Minh City to find a fairy?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The bodyguard's name is also his job title.", "explanation": "Artemis and his bodyguard, Butler, travel to Ho Chi Minh City to find a fairy healer who has the fairies' Book.", "set": "bank"},
+    {"id": "af-003", "book": "artemis-fowl", "type": "in_which_book", "prompt": "In which book does a centaur tech expert wear a tinfoil hat?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "The hat-wearer is the fairy police's tech genius.", "explanation": "Foaly, the paranoid centaur who runs the LEP's technology, wears a tinfoil hat to block spying.", "set": "bank"},
+    {"id": "af-004", "book": "artemis-fowl", "type": "in_which_book", "prompt": "In which book does a dwarf tunnel into a mansion by eating dirt?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "The digger is a thief hired by the fairy police.", "explanation": "Mulch Diggums, a dwarf, eats his way through the earth to tunnel into Fowl Manor.", "set": "bank"},
+    {"id": "af-005", "book": "artemis-fowl", "type": "in_which_book", "prompt": "In which book does a character get her magic back by planting an acorn?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The acorn has to come from an ancient oak.", "explanation": "In the fairy Ritual, an acorn from an ancient oak is planted somewhere new to restore magic. Holly does it in her cell.", "set": "bank"},
+    {"id": "af-006", "book": "artemis-fowl", "type": "in_which_book", "prompt": "In which book is a ransom of one ton of gold demanded?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "WP; SS", "hint": "The gold is fairy gold.", "explanation": "Artemis demands one ton of 24-carat gold as ransom for Holly.", "set": "bank"},
+    {"id": "af-007", "book": "artemis-fowl", "type": "in_which_book", "prompt": "In which book is time frozen around a house during a siege?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Fairy technology surrounds a mansion in Ireland.", "explanation": "The fairy police put a time-stop around Fowl Manor while they try to rescue Holly.", "set": "bank"},
+    {"id": "af-008", "book": "artemis-fowl", "type": "in_which_book", "prompt": "In which book does a bodyguard fight a troll and nearly die?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The troll is sent into a mansion.", "explanation": "Cudgeon sends a troll into Fowl Manor. Butler nearly dies fighting it until Holly heals him.", "set": "bank"},
+    {"id": "af-009", "book": "artemis-fowl", "type": "in_which_book", "prompt": "In which book does a mother who hasn't left her room since her husband disappeared get healed by magic?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The healing is a wish granted by a fairy.", "explanation": "Artemis's wish is for Holly to heal his mother, Angeline, who has been unwell since his father disappeared.", "set": "bank"},
+    {"id": "af-010", "book": "artemis-fowl", "type": "in_which_book", "prompt": "In which book do characters drink champagne with a sleeping drug in it to escape a trap?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "They need to be asleep to slip out of frozen time.", "explanation": "Artemis, Butler, and Juliet drink champagne with a sedative in it, so they fall asleep and slip out of the time-stop.", "set": "bank"},
+    {"id": "af-011", "book": "artemis-fowl", "type": "detail", "prompt": "How old is Artemis Fowl in the first book?", "answer": "12", "distractors": ["11", "13", "14"], "acceptAlso": ["twelve"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "He's about the same age as a sixth grader.", "explanation": "Artemis is only 12 years old, yet he is already running a huge criminal plan.", "set": "bank"},
+    {"id": "af-012", "book": "artemis-fowl", "type": "detail", "prompt": "In what city do Artemis and Butler find the fairy healer?", "answer": "Ho Chi Minh City", "distractors": ["Hanoi", "Bangkok", "Dublin"], "acceptAlso": ["Saigon"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The city is in Vietnam.", "explanation": "Artemis and Butler travel to Ho Chi Minh City in Vietnam, where Nguyen leads them to the fairy healer.", "set": "bank"},
+    {"id": "af-013", "book": "artemis-fowl", "type": "detail", "prompt": "What language is the fairies' Book written in?", "answer": "Gnommish", "distractors": ["Elvish", "Latin", "Ancient Irish"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "WP", "hint": "Its name sounds like a small garden creature.", "explanation": "The Book of the People is written in Gnommish, a fairy language that Artemis decodes with computer software.", "set": "bank"},
+    {"id": "af-014", "book": "artemis-fowl", "type": "detail", "prompt": "What does Artemis give the fairy healer in Ho Chi Minh City?", "answer": "A shot that cures her drinking problem", "distractors": ["A bag of gold", "A new home in Ireland", "A ride to Haven City"], "acceptAlso": ["a cure", "an injection"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "Think about the problem the healer had.", "explanation": "Artemis tricks the healer into handing over the Book, but he also gives her a shot that cures her drinking problem.", "set": "bank"},
+    {"id": "af-015", "book": "artemis-fowl", "type": "detail", "prompt": "How does Artemis figure out what the fairy Book says?", "answer": "He translates it with computer software", "distractors": ["Holly reads it to him", "Butler learned Gnommish in the army", "A dwarf translates it for gold"], "acceptAlso": ["computer", "translation software"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "WP; SS", "hint": "He uses technology, not magic.", "explanation": "Artemis runs the Gnommish text through computer translation software to decode it.", "set": "bank"},
+    {"id": "af-016", "book": "artemis-fowl", "type": "detail", "prompt": "What must a fairy plant to restore their magic in the Ritual?", "answer": "An acorn", "distractors": ["A four-leaf clover", "A gold coin", "A mushroom"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "WP; SS", "hint": "It grows into a tree.", "explanation": "In the Ritual, a fairy takes an acorn from an ancient oak near a river bend, under a full moon, and plants it somewhere else.", "set": "bank"},
+    {"id": "af-017", "book": "artemis-fowl", "type": "detail", "prompt": "How much gold does Artemis demand as ransom?", "answer": "One ton", "distractors": ["A pot of gold", "One million gold coins", "Half a ton"], "acceptAlso": ["1 ton", "a ton", "one ton of 24-carat gold"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "WP; SS", "hint": "It's measured by weight.", "explanation": "Artemis demands one ton of 24-carat gold. Later, Holly takes half of it back in exchange for a wish.", "set": "bank"},
+    {"id": "af-018", "book": "artemis-fowl", "type": "detail", "prompt": "What does LEP stand for?", "answer": "Lower Elements Police", "distractors": ["Leprechaun Enforcement Patrol", "Lower Earth Protectors", "Land of Elves Police"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "WP; SS", "hint": "The fairies live deep below the surface.", "explanation": "LEP stands for Lower Elements Police, the fairy police force from deep underground.", "set": "bank"},
+    {"id": "af-019", "book": "artemis-fowl", "type": "detail", "prompt": "What kind of fairy is Holly Short?", "answer": "An elf", "distractors": ["A pixie", "A sprite", "A gnome"], "acceptAlso": ["elf"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Her kind of fairy is often drawn with pointy ears.", "explanation": "Holly Short is an elf and a captain in LEP Recon.", "set": "bank"},
+    {"id": "af-020", "book": "artemis-fowl", "type": "detail", "prompt": "What kind of creature is Foaly?", "answer": "A centaur", "distractors": ["A dwarf", "A goblin", "A pixie"], "acceptAlso": ["centaur"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "WP; SS-CL", "hint": "Picture a creature with four legs.", "explanation": "Foaly is a centaur (half human, half horse) and the LEP's tech expert.", "set": "bank"},
+    {"id": "af-021", "book": "artemis-fowl", "type": "detail", "prompt": "What kind of creature is Mulch Diggums?", "answer": "A dwarf", "distractors": ["A gnome", "A goblin", "A sprite"], "acceptAlso": ["dwarf"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "WP; SS-CL", "hint": "His kind of fairy is famous for digging.", "explanation": "Mulch Diggums is a dwarf. He tunnels by eating the earth.", "set": "bank"},
+    {"id": "af-022", "book": "artemis-fowl", "type": "detail", "prompt": "Where does Commander Root end up when he follows Holly's locator beacon?", "answer": "On a whaling ship rigged with a bomb", "distractors": ["Fowl Manor's cellar", "The ancient oak at Tara", "A café in Ho Chi Minh City"], "acceptAlso": ["a ship", "whaling ship"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Artemis set a trap far from his house.", "explanation": "Artemis planted Holly's locator beacon on a whaling ship along with a bomb, and Root barely escapes.", "set": "bank"},
+    {"id": "af-023", "book": "artemis-fowl", "type": "detail", "prompt": "How does Butler capture Holly?", "answer": "With a tranquilizer dart", "distractors": ["With a net", "With an iron cage", "With a fake Ritual site"], "acceptAlso": ["dart gun", "tranquilizer"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "WP", "hint": "Butler shoots it from a distance.", "explanation": "While Holly is doing the Ritual, Butler hits her with a tranquilizer dart.", "set": "bank"},
+    {"id": "af-024", "book": "artemis-fowl", "type": "detail", "prompt": "How does Holly find soil inside her concrete cell?", "answer": "She slams her bed against the floor and breaks through it", "distractors": ["Juliet brings her a flowerpot", "Mulch digs up into her cell", "She finds it in a potted plant"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "She uses the furniture in her cell.", "explanation": "Holly slams her bed against the concrete floor, breaks through to the soil, and plants her acorn.", "set": "bank"},
+    {"id": "af-025", "book": "artemis-fowl", "type": "detail", "prompt": "What does Artemis trick Holly into believing?", "answer": "That she spilled fairy secrets under truth serum", "distractors": ["That her commander had abandoned her", "That the ransom had already been paid", "That she had lost her magic forever"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It makes her feel guilty about keeping secrets.", "explanation": "Artemis makes Holly think truth serum made her spill fairy secrets. Really, he learned them from the Book.", "set": "bank"},
+    {"id": "af-026", "book": "artemis-fowl", "type": "detail", "prompt": "What is the 'blue rinse'?", "answer": "A biological bomb that kills living things but leaves buildings standing", "distractors": ["A memory-wiping potion", "A healing spell", "A time-stop machine"], "acceptAlso": ["bio-bomb", "biological bomb"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "It's the fairies' last-resort weapon.", "explanation": "The blue rinse is a biological bomb that destroys living things but leaves buildings standing.", "set": "bank"},
+    {"id": "af-027", "book": "artemis-fowl", "type": "detail", "prompt": "What does Mulch find inside Fowl Manor that explains how Artemis knows so much about fairies?", "answer": "Artemis's copy of the Book", "distractors": ["A fairy spy", "Holly's helmet", "A map of Haven City"], "acceptAlso": ["the Book", "a copy of the Book"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "It's how Artemis learned the fairies' rules.", "explanation": "Mulch finds Artemis's copy of the Book, which shows where Artemis's fairy knowledge came from.", "set": "bank"},
+    {"id": "af-028", "book": "artemis-fowl", "type": "detail", "prompt": "How does Mulch Diggums get away at the end of his mission?", "answer": "He fakes his own death", "distractors": ["Root sets him free", "He hides in the gold shipment", "Butler lets him go"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "He tricks everyone into thinking he's gone for good.", "explanation": "After tunneling out, Mulch fakes his own death and escapes.", "set": "bank"},
+    {"id": "af-029", "book": "artemis-fowl", "type": "detail", "prompt": "Why can Mulch enter a human home without being invited?", "answer": "He gave up his magic", "distractors": ["He is invisible", "He has a special key", "Artemis invited him in"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Fairies who have magic must be invited in.", "explanation": "Fairies normally can't enter a human home without an invitation, but Mulch gave up his magic, so the rule doesn't stop him.", "set": "bank"},
+    {"id": "af-030", "book": "artemis-fowl", "type": "detail", "prompt": "What wish does Artemis ask Holly to grant?", "answer": "To heal his mother", "distractors": ["To find his father", "To keep all the gold", "To get magic powers"], "acceptAlso": ["cure his mother"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Someone in his family is sick.", "explanation": "Artemis asks Holly to heal his mother. When he finds her afterward, she is well.", "set": "bank"},
+    {"id": "af-031", "book": "artemis-fowl", "type": "detail", "prompt": "What does Holly get in return for granting Artemis's wish?", "answer": "Half the gold", "distractors": ["Her helmet back", "The Book", "All the gold"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Artemis doesn't keep the whole ransom.", "explanation": "Holly grants Artemis's wish in exchange for half the gold.", "set": "bank"},
+    {"id": "af-032", "book": "artemis-fowl", "type": "detail", "prompt": "How do Artemis, Butler, and Juliet escape the time-stop?", "answer": "They take a sedative and fall asleep", "distractors": ["They dig a tunnel", "They hide inside the gold", "They fly out with Holly"], "acceptAlso": ["sleeping pills", "they fall asleep"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Being awake or asleep matters inside a time-stop.", "explanation": "Artemis figured out that you leave a time-stop in the same state you entered it. By falling asleep, they slipped out of it.", "set": "bank"},
+    {"id": "af-033", "book": "artemis-fowl", "type": "detail", "prompt": "After the blue rinse, how do the fairies find out Artemis is still alive?", "answer": "They get sick when they try to enter his house", "distractors": ["Artemis calls them on the phone", "Foaly's cameras show him", "Holly tells them"], "acceptAlso": ["they vomit"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "Remember the rule about entering human homes.", "explanation": "Fairies can't enter a living human's home uninvited. When they try after the blue rinse, they get sick, so Artemis must be alive.", "set": "bank"},
+    {"id": "af-034", "book": "artemis-fowl", "type": "detail", "prompt": "What does Foaly wear on his head?", "answer": "A tinfoil hat", "distractors": ["A helmet with wings", "A crown", "A baseball cap"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "He's sure humans are spying on him.", "explanation": "Foaly is paranoid and wears a tinfoil hat to block spying.", "set": "bank"},
+    {"id": "af-035", "book": "artemis-fowl", "type": "detail", "prompt": "In what country is Fowl Manor?", "answer": "Ireland", "distractors": ["England", "Scotland", "Vietnam"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The author, Eoin Colfer, is from this country too.", "explanation": "Fowl Manor is in Ireland.", "set": "bank"},
+    {"id": "af-036", "book": "artemis-fowl", "type": "detail", "prompt": "What happened to Artemis's father?", "answer": "He disappeared during a shipping venture to Russia", "distractors": ["He was kidnapped by fairies", "He went to prison", "He moved to America"], "acceptAlso": ["he went missing", "lost at sea"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; SS-CL", "hint": "It involved ships and Russia.", "explanation": "Artemis's father went missing about a year earlier on a shipping venture to Russia, and the family fortune was lost.", "set": "bank"},
+    {"id": "af-037", "book": "artemis-fowl", "type": "detail", "prompt": "In the epilogue, whose case file does the story turn out to be?", "answer": "Dr. J. Argon's", "distractors": ["Foaly's", "Commander Root's", "Holly Short's"], "acceptAlso": ["Argon", "Dr. Argon"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "He's a fairy psychiatrist.", "explanation": "The epilogue reveals the story is Dr. J. Argon's LEP case file on Artemis.", "set": "bank"},
+    {"id": "af-038", "book": "artemis-fowl", "type": "detail", "prompt": "Who first leads Artemis to the fairy healer in Ho Chi Minh City?", "answer": "Nguyen", "distractors": ["Juliet", "Mulch Diggums", "Foaly"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS-CH", "hint": "He's an informant who meets them at a café.", "explanation": "Nguyen, an informant in Ho Chi Minh City, shows Artemis a photo and leads them to the healer.", "set": "bank"},
+    {"id": "af-039", "book": "artemis-fowl", "type": "detail", "prompt": "Before being kidnapped, what does Holly fight on the surface?", "answer": "A rogue troll", "distractors": ["A goblin gang", "Butler", "A dwarf thief"], "acceptAlso": ["troll"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "It's the same kind of creature that is later sent into Fowl Manor.", "explanation": "Holly is sent to stop a troll that has reached the surface. Saving the humans uses up her magic.", "set": "bank"},
+    {"id": "af-040", "book": "artemis-fowl", "type": "character", "prompt": "Which character is the first female officer in LEP Recon?", "answer": "Holly Short", "distractors": ["Juliet", "Angeline Fowl", "Briar Cudgeon"], "acceptAlso": ["Holly", "Captain Short"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "She's an elf.", "explanation": "Captain Holly Short is the first female officer in LEP Recon, and she feels pressure to prove herself.", "set": "bank"},
+    {"id": "af-041", "book": "artemis-fowl", "type": "character", "prompt": "Which character is Butler's younger sister?", "answer": "Juliet", "distractors": ["Holly Short", "Angeline Fowl", "Foaly"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "She works as a maid at Fowl Manor.", "explanation": "Juliet is Butler's younger sister. She works at Fowl Manor and looks after Artemis's mother.", "set": "bank"},
+    {"id": "af-042", "book": "artemis-fowl", "type": "character", "prompt": "Which LEP officer briefly takes over and sends a troll into Fowl Manor?", "answer": "Lieutenant Briar Cudgeon", "distractors": ["Commander Root", "Captain Trouble Kelp", "Foaly"], "acceptAlso": ["Cudgeon", "Briar Cudgeon"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "He's an ambitious lieutenant.", "explanation": "Lieutenant Briar Cudgeon takes over and sends in the troll. When that fails, Root is put back in charge.", "set": "bank"},
+    {"id": "af-043", "book": "artemis-fowl", "type": "character", "prompt": "Which character is the red-faced, short-tempered commander of LEP Recon?", "answer": "Commander Root", "distractors": ["Foaly", "Briar Cudgeon", "Trouble Kelp"], "acceptAlso": ["Root", "Julius Root"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS-CL; WP", "hint": "His face turns red when he's angry.", "explanation": "Commander Julius Root leads LEP Recon and the siege of Fowl Manor.", "set": "bank"},
+    {"id": "af-044", "book": "artemis-fowl", "type": "character", "prompt": "Which LEP officer runs into Butler during the attack on Fowl Manor?", "answer": "Captain Trouble Kelp", "distractors": ["Holly Short", "Mulch Diggums", "Briar Cudgeon"], "acceptAlso": ["Trouble Kelp", "Trouble"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "His first name sounds like 'problems'.", "explanation": "Captain Trouble Kelp takes part in the attack on Fowl Manor and runs into Butler.", "set": "bank"},
+    {"id": "af-045", "book": "artemis-fowl", "type": "character", "prompt": "Which character heals Butler after the troll fight?", "answer": "Holly Short", "distractors": ["Foaly", "Juliet", "The fairy healer"], "acceptAlso": ["Holly"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "She just got her magic back.", "explanation": "After restoring her magic with the acorn, Holly uses healing magic to save Butler.", "set": "bank"},
+    {"id": "af-046", "book": "artemis-fowl", "type": "character", "prompt": "Which character is a kleptomaniac (can't stop stealing)?", "answer": "Mulch Diggums", "distractors": ["Artemis", "Foaly", "Nguyen"], "acceptAlso": ["Mulch"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "WP; SS-CL", "hint": "He's a dwarf criminal.", "explanation": "Mulch Diggums is a kleptomaniac, someone who feels driven to steal. That fits his reputation as a criminal and burglar.", "set": "bank"},
+    {"id": "af-047", "book": "artemis-fowl", "type": "character", "prompt": "Which character designs and runs the fairy police's technology?", "answer": "Foaly", "distractors": ["Commander Root", "Holly Short", "Briar Cudgeon"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "He's a centaur.", "explanation": "Foaly is the LEP's tech expert who designs and runs its equipment.", "set": "bank"},
+    {"id": "af-048", "book": "artemis-fowl", "type": "sequence", "prompt": "Holly has just done the Ritual in her cell and has her magic back. What danger is sent into Fowl Manor next?", "answer": "A troll", "distractors": ["Mulch Diggums", "The blue rinse", "A team of recon officers"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Cudgeon chooses a dangerous creature.", "explanation": "After Holly gets her magic back, Cudgeon sends a troll into Fowl Manor.", "set": "bank"},
+    {"id": "af-049", "book": "artemis-fowl", "type": "sequence", "prompt": "Put these events in order.", "order": ["Artemis gets the Book in Ho Chi Minh City", "Artemis translates the Book", "Butler captures Holly", "The fairies freeze time around Fowl Manor", "The gold is delivered"], "answer": "Book → translate → capture Holly → time-stop → gold", "distractors": ["Book → capture Holly → translate → time-stop → gold", "translate → Book → capture Holly → time-stop → gold", "Book → translate → time-stop → capture Holly → gold"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Artemis has to read the Book before he can find Holly.", "explanation": "Artemis gets the Book, translates it to learn about the Ritual, and captures Holly. Then the fairies freeze time around the manor, and the gold arrives near the end.", "set": "bank"},
+    {"id": "af-050", "book": "artemis-fowl", "type": "sequence", "prompt": "Put the fairies' attempts to get into Fowl Manor in order.", "order": ["Recon officers are sent in and Butler beats them", "Mulch tunnels in", "A troll is sent in", "The blue rinse is set off"], "answer": "officers → Mulch → troll → blue rinse", "distractors": ["Mulch → officers → troll → blue rinse", "officers → troll → Mulch → blue rinse", "troll → officers → Mulch → blue rinse"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The bomb is the fairies' last move.", "explanation": "First, Butler beats the recon officers. Then Mulch tunnels in, Cudgeon sends the troll, and finally the blue rinse is set off.", "set": "bank"},
+    {"id": "af-051", "book": "artemis-fowl", "type": "sequence", "prompt": "What happens right after the fairies set off the blue rinse?", "answer": "They try to go inside and get sick, which proves Artemis is alive", "distractors": ["Holly is kidnapped again", "Mulch tunnels in", "Butler fights a troll"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The fairies try to go into the house.", "explanation": "When the fairies try to enter after the blue rinse, they get sick. That proves Artemis is alive, because fairies can't enter a living human's home uninvited.", "set": "bank"},
+    {"id": "af-052", "book": "artemis-fowl", "type": "sequence", "prompt": "Which of these happens first?", "answer": "Holly fights a troll on the surface", "distractors": ["Butler captures Holly", "Root finds the bomb on the whaling ship", "The time-stop begins"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Holly's magic runs out before she does the Ritual.", "explanation": "Holly uses up her magic fighting the troll. That's why she has to do the Ritual, where Butler captures her.", "set": "bank"},
+    {"id": "bun-001", "book": "bunnicula", "type": "in_which_book", "prompt": "In which book is a pet rabbit found at a movie theater?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The family was at a scary movie.", "explanation": "The Monroes find the bunny at a movie theater while watching Dracula.", "set": "bank"},
+    {"id": "bun-002", "book": "bunnicula", "type": "in_which_book", "prompt": "In which book do vegetables turn white overnight?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Someone suspects a vampire.", "explanation": "Vegetables in the Monroe kitchen turn white and drained of juice, and Chester blames Bunnicula.", "set": "bank"},
+    {"id": "bun-003", "book": "bunnicula", "type": "in_which_book", "prompt": "In which book is the story told by the family dog?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The narrator is a snack-loving pet.", "explanation": "Harold, the Monroes' dog, tells the story.", "set": "bank"},
+    {"id": "bun-004", "book": "bunnicula", "type": "in_which_book", "prompt": "In which book does a cat attack a sleeping animal with a raw steak?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Someone mixes up two words that sound the same.", "explanation": "Chester confuses 'stake' and 'steak' and attacks Bunnicula with raw meat.", "set": "bank"},
+    {"id": "bun-005", "book": "bunnicula", "type": "in_which_book", "prompt": "In which book does someone spread garlic all over the house?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Garlic is supposed to keep vampires away.", "explanation": "Chester spreads garlic to protect the Monroes from the 'vampire' bunny, and he gets a bath for it.", "set": "bank"},
+    {"id": "bun-006", "book": "bunnicula", "type": "in_which_book", "prompt": "In which book is a cat sent to a cat psychiatrist?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The cat's behavior worries the family.", "explanation": "After all the chaos, Chester starts seeing a cat psychiatrist.", "set": "bank"},
+    {"id": "bun-007", "book": "bunnicula", "type": "in_which_book", "prompt": "In which book does a pet arrive with a note written in a dialect from the Carpathian Mountains?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "WP; KIRKUS", "hint": "That mountain region is linked to vampire stories.", "explanation": "The bunny arrives with a note written in an old dialect from the Carpathian Mountains.", "set": "bank"},
+    {"id": "bun-008", "book": "bunnicula", "type": "in_which_book", "prompt": "In which book is a pet put on a carrot-juice diet?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The pet needs its vegetables in liquid form.", "explanation": "The vet gives Bunnicula carrot juice, and the family keeps him on vegetable juice.", "set": "bank"},
+    {"id": "bun-009", "book": "bunnicula", "type": "in_which_book", "prompt": "In which book is a family watching the movie Dracula when they find a new pet?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The pet is named after the movie.", "explanation": "The Monroes were watching Dracula, which is how Bunnicula got his name.", "set": "bank"},
+    {"id": "bun-010", "book": "bunnicula", "type": "in_which_book", "prompt": "In which book does a cat who loves reading horror stories become sure a pet is a vampire?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; SS-CL", "hint": "In this book, the reader is a cat, not a person.", "explanation": "Chester, a well-read tabby, uses his vampire books to 'prove' that Bunnicula is a vampire.", "set": "bank"},
+    {"id": "bun-011", "book": "bunnicula", "type": "detail", "prompt": "What movie were the Monroes watching when they found the bunny?", "answer": "Dracula", "distractors": ["Frankenstein", "The Wolf Man", "The Mummy"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The bunny's name mashes up 'bunny' and this movie.", "explanation": "They were watching Dracula. Bunny + Dracula = Bunnicula.", "set": "bank"},
+    {"id": "bun-012", "book": "bunnicula", "type": "detail", "prompt": "Where did the Monroes find the bunny?", "answer": "At a movie theater", "distractors": ["At a pet store", "In their garden", "At the vet's office"], "acceptAlso": ["movie theater", "theater"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The family was out for the evening.", "explanation": "The Monroes find him in the movie theater during Dracula.", "set": "bank"},
+    {"id": "bun-013", "book": "bunnicula", "type": "detail", "prompt": "What was the weather like the night the bunny was found?", "answer": "Dark and stormy", "distractors": ["Snowy and cold", "Foggy and quiet", "Hot and humid"], "acceptAlso": ["stormy"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "WP", "hint": "It's a classic spooky-story beginning.", "explanation": "It was a dark and stormy night, the perfect start for a spooky tale.", "set": "bank"},
+    {"id": "bun-014", "book": "bunnicula", "type": "detail", "prompt": "The note found with the bunny was written in a dialect from which mountain region?", "answer": "The Carpathian Mountains", "distractors": ["The Alps", "The Rocky Mountains", "The Himalayas"], "acceptAlso": ["Carpathian"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "WP; KIRKUS", "hint": "Dracula stories come from this part of Europe.", "explanation": "The note is written in an old dialect from the Carpathian Mountains, the region tied to vampire legends.", "set": "bank"},
+    {"id": "bun-015", "book": "bunnicula", "type": "detail", "prompt": "Who names the bunny Bunnicula?", "answer": "Mrs. Monroe", "distractors": ["Toby", "Pete", "Mr. Monroe"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; SEARCH", "hint": "It's one of the parents.", "explanation": "Mrs. Monroe names him Bunnicula after the movie they were watching.", "set": "bank"},
+    {"id": "bun-016", "book": "bunnicula", "type": "detail", "prompt": "Bunnicula's black markings look like what?", "answer": "A cape", "distractors": ["A mask", "A bat", "A top hat"], "acceptAlso": ["a vampire's cape"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Think about what vampires wear.", "explanation": "His black markings look like a vampire's cape, one of Chester's first clues.", "set": "bank"},
+    {"id": "bun-017", "book": "bunnicula", "type": "detail", "prompt": "What color do the vegetables turn?", "answer": "White", "distractors": ["Black", "Purple", "Gray"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "They look drained of all their color.", "explanation": "The vegetables are drained of juice and turn white.", "set": "bank"},
+    {"id": "bun-018", "book": "bunnicula", "type": "detail", "prompt": "What is the first vegetable found drained and white?", "answer": "A tomato", "distractors": ["A carrot", "A zucchini", "A head of lettuce"], "acceptAlso": ["tomato"], "difficulty": 2, "verified": true, "confidence": "sourced", "source": "SS-CH (Ch. 3); educational study guide — parent review", "hint": "Normally it's red.", "explanation": "The first drained vegetable is a white tomato, found in Chapter 3. The white zucchini comes later.", "set": "bank"},
+    {"id": "bun-019", "book": "bunnicula", "type": "detail", "prompt": "What marks are found on the white vegetables?", "answer": "Two tiny holes", "distractors": ["Claw scratches", "Big bite marks", "Tiny paw prints"], "acceptAlso": ["two holes", "fang marks"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "WP", "hint": "Think about how a vampire drinks.", "explanation": "Each white vegetable has two tiny holes, like fang marks.", "set": "bank"},
+    {"id": "bun-020", "book": "bunnicula", "type": "detail", "prompt": "Besides tomatoes, which other vegetables turn white?", "answer": "Lettuce and zucchini", "distractors": ["Corn and peas", "Onions and beets", "Potatoes and yams"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "KIRKUS", "hint": "One is a leafy green, and one is a long green squash.", "explanation": "Besides the tomato, lettuce and zucchini also turn white.", "set": "bank"},
+    {"id": "bun-021", "book": "bunnicula", "type": "detail", "prompt": "What does Chester spread around the house to protect the family?", "answer": "Garlic", "distractors": ["Salt", "Pepper", "Silver spoons"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "It's a smelly vampire repellent.", "explanation": "Chester spreads garlic because vampire stories say it keeps vampires away.", "set": "bank"},
+    {"id": "bun-022", "book": "bunnicula", "type": "detail", "prompt": "What happens to Chester after his garlic plan?", "answer": "Mrs. Monroe gives him a bath", "distractors": ["He gets sick", "He gets a treat", "He gets shut in the basement"], "acceptAlso": ["he gets a bath"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "WP", "hint": "He smells terrible.", "explanation": "The garlic makes Chester smell, so Mrs. Monroe gives him a bath.", "set": "bank"},
+    {"id": "bun-023", "book": "bunnicula", "type": "detail", "prompt": "Chester mixes up two words. What does he use on Bunnicula instead of a wooden stake?", "answer": "A raw steak", "distractors": ["A carrot", "A pencil", "A wooden spoon"], "acceptAlso": ["steak"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Stake... or steak?", "explanation": "Vampire stories use a wooden stake, but Chester uses a raw steak.", "set": "bank"},
+    {"id": "bun-024", "book": "bunnicula", "type": "detail", "prompt": "What happens to Chester after he throws water on Bunnicula?", "answer": "He gets locked outside", "distractors": ["He gets a bath", "He's taken to the vet right away", "He's shut in his room"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "WP", "hint": "He isn't allowed in the house.", "explanation": "After Chester throws water on Bunnicula, the family shuts him outside.", "set": "bank"},
+    {"id": "bun-025", "book": "bunnicula", "type": "detail", "prompt": "Where do the Monroes take the pets at the end?", "answer": "To the vet", "distractors": ["To the movie theater", "To a pet show", "To an animal shelter"], "acceptAlso": ["vet", "veterinarian"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Where do you take sick pets?", "explanation": "The family takes the pets to the vet, where Bunnicula gets carrot juice and Chester gets help.", "set": "bank"},
+    {"id": "bun-026", "book": "bunnicula", "type": "detail", "prompt": "What does the vet give Bunnicula after finding out he is starving?", "answer": "Carrot juice", "distractors": ["Tomato soup", "Lettuce leaves", "Rabbit pellets"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; parent review", "hint": "It's an orange drink.", "explanation": "The vet gives the starving bunny carrot juice, and the family keeps him on vegetable juice afterward.", "set": "bank"},
+    {"id": "bun-027", "book": "bunnicula", "type": "detail", "prompt": "What does the vet say is behind Chester's strange behavior?", "answer": "Sibling rivalry", "distractors": ["A bad diet", "Reading too many books", "Old age"], "acceptAlso": ["jealousy"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It's the kind of problem brothers and sisters have.", "explanation": "The vet says Chester's behavior comes from sibling rivalry, meaning he's jealous of the new pet.", "set": "bank"},
+    {"id": "bun-028", "book": "bunnicula", "type": "detail", "prompt": "When does Bunnicula sleep?", "answer": "All day", "distractors": ["All night", "Only in the evening", "Only after eating"], "acceptAlso": ["during the day", "daytime"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; SS-CL", "hint": "Vampires avoid sunlight.", "explanation": "Bunnicula sleeps all day, which Chester sees as a vampire clue.", "set": "bank"},
+    {"id": "bun-029", "book": "bunnicula", "type": "detail", "prompt": "What kind of cat is Chester?", "answer": "A tabby", "distractors": ["A Siamese", "A Persian", "A black cat"], "acceptAlso": ["tabby"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS-CL; WP", "hint": "He's a striped cat.", "explanation": "Chester is a tabby cat.", "set": "bank"},
+    {"id": "bun-030", "book": "bunnicula", "type": "detail", "prompt": "What is Mr. Monroe's job?", "answer": "English professor", "distractors": ["Veterinarian", "Movie theater owner", "Doctor"], "acceptAlso": ["professor", "teacher"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "That's why the house is full of books.", "explanation": "Mr. Monroe is an English professor, and his big book collection is where Chester reads about vampires.", "set": "bank"},
+    {"id": "bun-031", "book": "bunnicula", "type": "detail", "prompt": "What unusual teeth does Bunnicula have?", "answer": "Fangs", "distractors": ["Gold teeth", "No teeth at all", "Beaver-like buck teeth"], "acceptAlso": ["pointy teeth", "sharp teeth"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS-CL; WP", "hint": "Think vampire.", "explanation": "Bunnicula has unusually small, pointed teeth that look like fangs, which Chester sees as more evidence that he is a vampire.", "set": "bank"},
+    {"id": "bun-032", "book": "bunnicula", "type": "detail", "prompt": "What kind of books does Chester love to read?", "answer": "Horror and mystery", "distractors": ["Cookbooks", "Poetry", "Joke books"], "acceptAlso": ["horror", "vampire books", "mystery"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "They're scary stories.", "explanation": "Chester loves horror and mystery books, and they give him his vampire ideas.", "set": "bank"},
+    {"id": "bun-033", "book": "bunnicula", "type": "detail", "prompt": "How does Bunnicula reach the vegetables at night?", "answer": "He gets out of his cage", "distractors": ["Toby carries him", "Chester lets him out", "He's never kept in a cage"], "acceptAlso": ["escapes his cage"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Chester says the bunny has been escaping.", "explanation": "Bunnicula gets out of his cage at night and goes to the kitchen.", "set": "bank"},
+    {"id": "bun-034", "book": "bunnicula", "type": "detail", "prompt": "Why does Bunnicula get weak and thin?", "answer": "Chester keeps him away from food", "distractors": ["He catches a cold", "Harold eats his food", "The family forgets to feed him"], "acceptAlso": ["Chester starves him"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "Someone is guarding the vegetables.", "explanation": "Chester keeps Bunnicula away from food to stop the 'vampire', so the bunny grows weak.", "set": "bank"},
+    {"id": "bun-035", "book": "bunnicula", "type": "detail", "prompt": "Harold lets Bunnicula out of his cage, hoping he'll eat what?", "answer": "The salad", "distractors": ["Chester's food", "A chocolate cupcake", "Toby's snacks"], "acceptAlso": ["salad"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "It's on the dinner table.", "explanation": "Harold brings Bunnicula to the salad so he can eat. Then Chester attacks, and chaos follows.", "set": "bank"},
+    {"id": "bun-036", "book": "bunnicula", "type": "detail", "prompt": "The book presents itself as a manuscript written by whom?", "answer": "A dog (Harold)", "distractors": ["A cat (Chester)", "Toby Monroe", "Mr. Monroe"], "acceptAlso": ["Harold", "a dog"], "difficulty": 2, "verified": true, "confidence": "sourced", "source": "Editor's Note; SS — parent review", "hint": "Picture a pet at a typewriter.", "explanation": "In the Editor's Note, a dog brings in the manuscript, along with a letter from Harold saying his full-time job is being a dog.", "set": "bank"},
+    {"id": "bun-037", "book": "bunnicula", "type": "character", "prompt": "Which character tells the story?", "answer": "Harold", "distractors": ["Chester", "Toby", "Mrs. Monroe"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "He's the family dog.", "explanation": "Harold the dog tells the story.", "set": "bank"},
+    {"id": "bun-038", "book": "bunnicula", "type": "character", "prompt": "Which character is sure Bunnicula is a vampire?", "answer": "Chester", "distractors": ["Harold", "Mrs. Monroe", "Pete"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "He reads a lot of horror books.", "explanation": "Chester is convinced Bunnicula is a vampire.", "set": "bank"},
+    {"id": "bun-039", "book": "bunnicula", "type": "character", "prompt": "Which character is the younger Monroe son?", "answer": "Toby", "distractors": ["Pete", "Harold", "Chester"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "He shares snacks with Harold.", "explanation": "Toby is the younger Monroe son, and Pete is the older one.", "set": "bank"},
+    {"id": "bun-040", "book": "bunnicula", "type": "character", "prompt": "Which character is the older Monroe son?", "answer": "Pete", "distractors": ["Toby", "Harold", "Chester"], "acceptAlso": ["Peter"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "He likes to show off and argue with his brother.", "explanation": "Pete is the older Monroe son.", "set": "bank"},
+    {"id": "bun-041", "book": "bunnicula", "type": "character", "prompt": "Which Monroe shares late-night snacks with Harold?", "answer": "Toby", "distractors": ["Pete", "Mr. Monroe", "Mrs. Monroe"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "He's Harold's favorite human.", "explanation": "Toby shares late-night snacks with Harold.", "set": "bank"},
+    {"id": "bun-042", "book": "bunnicula", "type": "character", "prompt": "Which character doubts the vampire idea at first and later befriends the bunny?", "answer": "Harold", "distractors": ["Chester", "Pete", "Mrs. Monroe"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "He's the narrator.", "explanation": "Harold doubts Chester's theory at first, and later he helps the starving bunny.", "set": "bank"},
+    {"id": "bun-043", "book": "bunnicula", "type": "character", "prompt": "Which character ends up seeing a cat psychiatrist?", "answer": "Chester", "distractors": ["Harold", "Bunnicula", "Pete"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS", "hint": "He's the one with the wild vampire theory.", "explanation": "After the vet visit, Chester starts seeing a cat psychiatrist.", "set": "bank"},
+    {"id": "bun-044", "book": "bunnicula", "type": "sequence", "prompt": "Put these events in order.", "order": ["The family finds the bunny at the movies", "Vegetables start turning white", "Chester spreads garlic around the house", "Chester attacks Bunnicula with a steak", "The family takes the pets to the vet"], "answer": "found at movies → white vegetables → garlic → steak → vet", "distractors": ["found at movies → garlic → white vegetables → steak → vet", "found at movies → white vegetables → steak → garlic → vet", "white vegetables → found at movies → garlic → steak → vet"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The garlic comes before the steak.", "explanation": "The bunny arrives and vegetables turn white. Chester tries garlic, then the steak, and finally the family goes to the vet.", "set": "bank"},
+    {"id": "bun-045", "book": "bunnicula", "type": "sequence", "prompt": "Which of these happens first?", "answer": "The Monroes find the white tomato", "distractors": ["Harold and Chester see Bunnicula leave the kitchen", "Chester spreads garlic", "Chester attacks with a steak"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS-CH (tomato Ch. 3, zucchini Ch. 4) — parent review", "hint": "It's the very first white vegetable.", "explanation": "The white tomato is found in Chapter 3. The night watch and the white zucchini come in Chapter 4, and the garlic and steak come later.", "set": "bank"},
+    {"id": "bun-046", "book": "bunnicula", "type": "sequence", "prompt": "What happens right after the chase at the dinner table?", "answer": "The family decides to take the pets to the vet", "distractors": ["Chester spreads garlic", "Chester throws water on Bunnicula", "Bunnicula runs away for good"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The family decides the pets need a professional.", "explanation": "After the chase at the dinner table, the family decides the pets need to see the vet.", "set": "bank"},
+    {"id": "bun-047", "book": "bunnicula", "type": "sequence", "prompt": "After the vet visit, what changes?", "answer": "Bunnicula stops getting out at night and the vegetables stop turning white", "distractors": ["Chester starts guarding the kitchen every night", "The family gives Bunnicula away", "Harold and Chester stop being friends"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; WP", "hint": "The mystery stops.", "explanation": "After Bunnicula is put on the juice diet, he stops sneaking out at night, and the mysterious white vegetables stop appearing.", "set": "bank"},
+    {"id": "cn-001", "book": "captain-nobody", "type": "in_which_book", "prompt": "In which book does a 10-year-old make a superhero costume out of his brother's football clothes?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; AUTH", "hint": "The costume is made from sports gear.", "explanation": "Newt's friends turn Chris's old football jersey and clothes into the Captain Nobody costume.", "set": "bank"},
+    {"id": "cn-002", "book": "captain-nobody", "type": "in_which_book", "prompt": "In which book is a high-school quarterback knocked into a coma during the Big Game?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; AUTH", "hint": "The injured player's little brother tells the story.", "explanation": "Chris Newman is hurt on the final play of the Big Game and falls into a coma.", "set": "bank"},
+    {"id": "cn-003", "book": "captain-nobody", "type": "in_which_book", "prompt": "In which book does a boy accidentally walk in on a jewelry-store robbery?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS", "hint": "His friend was upset about a sign's grammar.", "explanation": "Captain Nobody goes into Sullivan's Jewelry to complain about the sign and interrupts a robbery.", "set": "bank"},
+    {"id": "cn-004", "book": "captain-nobody", "type": "in_which_book", "prompt": "In which book does a small plane make an emergency landing on a highway?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; PW review", "hint": "A boy stopped traffic to save a mascot.", "explanation": "When Newt stops highway traffic to rescue the ferret mascot, a small plane is able to make an emergency landing.", "set": "bank"},
+    {"id": "cn-005", "book": "captain-nobody", "type": "in_which_book", "prompt": "In which book does a boy who is afraid of heights climb a water tower?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; AUTH", "hint": "He's a homemade superhero.", "explanation": "Newt, who is afraid of heights, climbs Appleton's water tower to help Reggie.", "set": "bank"},
+    {"id": "cn-006", "book": "captain-nobody", "type": "in_which_book", "prompt": "In which book does a boy walk a lost old man with Alzheimer's back home?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; PW review", "hint": "The helper is wearing a costume.", "explanation": "Captain Nobody walks Mr. Clay, who has Alzheimer's, home to his wife.", "set": "bank"},
+    {"id": "cn-007", "book": "captain-nobody", "type": "in_which_book", "prompt": "In which book does a team mascot, a ferret, escape onto a highway?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The mascot belongs to a high-school football team.", "explanation": "Ferocious the ferret, the Fillmore mascot, gets loose onto the highway.", "set": "bank"},
+    {"id": "cn-008", "book": "captain-nobody", "type": "in_which_book", "prompt": "In which book do three friends try to make Halloween costumes that show their 'inner other'?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; AUTH", "hint": "One costume ends up named after a brother's initials.", "explanation": "Newt, Cecil, and JJ decide to build costumes that show their 'inner other'.", "set": "bank"},
+    {"id": "cn-009", "book": "captain-nobody", "type": "in_which_book", "prompt": "In which book does a boy make breakfast every morning for his busy family?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "His mom and dad are always on the phone.", "explanation": "Newt makes breakfast because his busy parents are always on their phones.", "set": "bank"},
+    {"id": "cn-010", "book": "captain-nobody", "type": "in_which_book", "prompt": "In which book does a boy lead a victory parade in costume at the end?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The team wins, and the boy's brother gets better.", "explanation": "After Newt and Chris recover, Newt leads the victory parade as Captain Nobody.", "set": "bank"},
+    {"id": "cn-011", "book": "captain-nobody", "type": "detail", "prompt": "What is Newt's full first name?", "answer": "Newton", "distractors": ["Newell", "Norton", "Nathaniel"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "He's named after the scientist who explained gravity.", "explanation": "Newt is short for Newton, after Sir Isaac Newton.", "set": "bank"},
+    {"id": "cn-012", "book": "captain-nobody", "type": "detail", "prompt": "Newt's parents say he was named after a famous scientist, but Newt worries he was named after what?", "answer": "A fig cookie", "distractors": ["A lizard", "A cartoon character", "A candy bar"], "acceptAlso": ["fig newton", "a cookie"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "It's a snack filled with fruit.", "explanation": "Newt worries he was named after the Fig Newton cookie, but his dad says it was for Sir Isaac Newton.", "set": "bank"},
+    {"id": "cn-013", "book": "captain-nobody", "type": "detail", "prompt": "How old is Newt?", "answer": "10", "distractors": ["9", "11", "12"], "acceptAlso": ["ten"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "AUTH; SS", "hint": "He's younger than most sixth graders.", "explanation": "Newt is 10, much younger than his high-school brother.", "set": "bank"},
+    {"id": "cn-014", "book": "captain-nobody", "type": "detail", "prompt": "What is the name of Newt's hometown?", "answer": "Appleton", "distractors": ["Fillmore", "Merrimac", "Springfield"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "AUTH; SS", "hint": "It sounds like a town full of fruit trees.", "explanation": "Newt lives in Appleton. Fillmore and Merrimac are the rival high schools.", "set": "bank"},
+    {"id": "cn-015", "book": "captain-nobody", "type": "detail", "prompt": "What is the name of Chris's high-school football team?", "answer": "The Ferocious Ferrets", "distractors": ["The Chargers", "The Eagles", "The Wildcats"], "acceptAlso": ["Ferrets", "Fillmore Ferrets"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "It's the same animal as the team mascot.", "explanation": "Chris plays for the Ferocious Ferrets of Fillmore High. The Chargers are their rivals from Merrimac.", "set": "bank"},
+    {"id": "cn-016", "book": "captain-nobody", "type": "detail", "prompt": "Which school is Chris's team's big crosstown rival?", "answer": "Merrimac High", "distractors": ["Roosevelt Prep", "Appleton Academy", "Fillmore High"], "acceptAlso": ["Merrimac", "the Chargers"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "Their team is the Chargers.", "explanation": "Fillmore's crosstown archrival is Merrimac High. Fillmore beat Roosevelt Prep the week before the Big Game.", "set": "bank"},
+    {"id": "cn-017", "book": "captain-nobody", "type": "detail", "prompt": "What position does Chris play?", "answer": "Quarterback", "distractors": ["Running back", "Linebacker", "Kicker"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "He's the player who takes the snap.", "explanation": "Chris is Fillmore's star quarterback.", "set": "bank"},
+    {"id": "cn-018", "book": "captain-nobody", "type": "detail", "prompt": "In what month is the Big Game played?", "answer": "October", "distractors": ["September", "November", "December"], "acceptAlso": ["last Friday in October"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "It's right before Halloween.", "explanation": "The Big Game is on the last Friday in October.", "set": "bank"},
+    {"id": "cn-019", "book": "captain-nobody", "type": "detail", "prompt": "What is the name of Appleton's newspaper?", "answer": "The Appleton Sentinel", "distractors": ["The Appleton Times", "The Appleton Herald", "The Daily Ferret"], "acceptAlso": ["Sentinel"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "The name means a guard or lookout.", "explanation": "The town newspaper is the Appleton Sentinel, and it hypes the Big Game.", "set": "bank"},
+    {"id": "cn-020", "book": "captain-nobody", "type": "detail", "prompt": "What does Newt use to finally wake Chris up on the morning of the Big Game?", "answer": "The garden hose", "distractors": ["An alarm clock", "A bucket of ice", "A marching-band drum"], "acceptAlso": ["hose", "cold water"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "It's in the backyard.", "explanation": "When yelling doesn't work, Newt turns the garden hose on Chris.", "set": "bank"},
+    {"id": "cn-021", "book": "captain-nobody", "type": "detail", "prompt": "What is Newt's mom's job?", "answer": "She sells houses (real estate)", "distractors": ["She's a nurse", "She's a newspaper reporter", "She's a school principal"], "acceptAlso": ["real estate agent", "sells houses"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "She carries For Sale signs.", "explanation": "Newt's mom is a real-estate agent who sells houses and is always on the phone.", "set": "bank"},
+    {"id": "cn-022", "book": "captain-nobody", "type": "detail", "prompt": "What is Newt's dad's job?", "answer": "Supervisor for a company that builds buildings", "distractors": ["Football coach", "Doctor", "Police officer"], "acceptAlso": ["construction"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "He carries blueprints.", "explanation": "Newt's dad is a supervisor at a company that builds apartment buildings and offices.", "set": "bank"},
+    {"id": "cn-023", "book": "captain-nobody", "type": "detail", "prompt": "Where does Newt end up watching the second half of the Big Game?", "answer": "From behind a fence outside the stadium", "distractors": ["From the press box", "On TV at home", "From the team bench"], "acceptAlso": ["behind a fence", "outside the stadium"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "AUTH study guide; SS", "hint": "He got tossed out of the stadium.", "explanation": "After getting tossed out, Newt watches from behind a fence at one end of the field. That's how he saw what really happened on the play that hurt Chris.", "set": "bank"},
+    {"id": "cn-024", "book": "captain-nobody", "type": "detail", "prompt": "Where does the name 'Captain Nobody' come from?", "answer": "Chris's initials, C.N.", "distractors": ["A comic book he traced", "His teacher's joke", "A newspaper headline"], "acceptAlso": ["C.N.", "Chris Newman's initials"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "Look at his brother's name.", "explanation": "Chris Newman's initials are C.N., so Newt becomes Captain Nobody.", "set": "bank"},
+    {"id": "cn-025", "book": "captain-nobody", "type": "detail", "prompt": "What is the Captain Nobody costume made from?", "answer": "Chris's old football jersey and clothes", "distractors": ["A store-bought superhero suit", "His mom's old curtains", "Plastic garbage bags"], "acceptAlso": ["Chris's jersey", "football jersey"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; AUTH", "hint": "It belonged to his brother.", "explanation": "Cecil and JJ turn Chris's old football jersey and outgrown clothes into the costume.", "set": "bank"},
+    {"id": "cn-026", "book": "captain-nobody", "type": "detail", "prompt": "What does Cecil want Captain Nobody's help getting off the top of a dumpster?", "answer": "An old bass drum", "distractors": ["A skateboard", "A lost cat", "An old bicycle"], "acceptAlso": ["bass drum", "drum"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It makes a loud BOOM.", "explanation": "Cecil wants an old bass drum from the top of a dumpster, and Captain Nobody climbs up even though Newt is afraid of heights.", "set": "bank"},
+    {"id": "cn-027", "book": "captain-nobody", "type": "detail", "prompt": "Why does JJ want Captain Nobody to talk to the owner of Sullivan's Jewelry?", "answer": "The store's sign had grammar mistakes", "distractors": ["The store sold fake gold", "JJ lost a ring there", "The owner was rude to JJ"], "acceptAlso": ["grammar", "bad grammar on the sign"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "JJ cares about correct writing.", "explanation": "JJ is bothered by grammar mistakes on the store's sign, which leads Newt inside during a robbery.", "set": "bank"},
+    {"id": "cn-028", "book": "captain-nobody", "type": "detail", "prompt": "During the jewelry-store robbery, how is the alarm set off?", "answer": "The owner pulls it while the robber is distracted", "distractors": ["Newt pulls it", "JJ calls the police", "The robber trips it by accident"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "Newt is a distraction.", "explanation": "While Captain Nobody distracts the robber, the store owner pulls the alarm.", "set": "bank"},
+    {"id": "cn-029", "book": "captain-nobody", "type": "detail", "prompt": "What does Newt find crumpled in the trash?", "answer": "A medical report saying Chris might never wake up", "distractors": ["His report card", "A letter from Reggie", "A note from the principal"], "acceptAlso": ["medical report"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It's about his brother's health.", "explanation": "The crumpled report says Chris may never wake up.", "set": "bank"},
+    {"id": "cn-030", "book": "captain-nobody", "type": "detail", "prompt": "What is the name of the team mascot that escapes onto the highway?", "answer": "Ferocious (the ferret)", "distractors": ["Fang (the ferret)", "Sparky (the dog)", "Charger (the horse)"], "acceptAlso": ["Ferocious", "the ferret"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The name matches the team's nickname.", "explanation": "The Ferocious Ferrets' mascot is a ferret named Ferocious.", "set": "bank"},
+    {"id": "cn-031", "book": "captain-nobody", "type": "detail", "prompt": "When Newt stops highway traffic, what lands on the road?", "answer": "A small plane", "distractors": ["A helicopter", "A hot-air balloon", "A news blimp"], "acceptAlso": ["plane", "airplane"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; PW review", "hint": "It needed an emergency landing.", "explanation": "Because Newt stopped the traffic, a small plane could land safely on the highway.", "set": "bank"},
+    {"id": "cn-032", "book": "captain-nobody", "type": "detail", "prompt": "Why is Reggie really on top of the water tower?", "answer": "He got stuck trying to paint graffiti", "distractors": ["He was hiding from the police", "He was rescuing a cat", "He wanted a better view of the town"], "acceptAlso": ["graffiti"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "He brought spray paint.", "explanation": "Everyone feared the worst, but Reggie had just gotten stuck while trying to paint graffiti.", "set": "bank"},
+    {"id": "cn-033", "book": "captain-nobody", "type": "detail", "prompt": "What does Newt land on when he falls from the water tower?", "answer": "A rubber mattress", "distractors": ["A pile of leaves", "A trampoline", "A swimming pool"], "acceptAlso": ["mattress", "air mattress"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It's soft and bouncy.", "explanation": "Newt lands on a rubber mattress, and then Reggie lands on him.", "set": "bank"},
+    {"id": "cn-034", "book": "captain-nobody", "type": "detail", "prompt": "What injuries does Newt get from the water-tower fall?", "answer": "A broken ankle and ribs", "distractors": ["A broken arm and a concussion", "A broken wrist and ribs", "A sprained ankle and a concussion"], "acceptAlso": ["broken ankle", "broken ribs"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "His leg and his chest are hurt.", "explanation": "Newt breaks his ankle and ribs in the fall.", "set": "bank"},
+    {"id": "cn-035", "book": "captain-nobody", "type": "detail", "prompt": "What is Newt afraid of?", "answer": "Heights", "distractors": ["Spiders", "Plastic garbage bags", "The dark"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "It's a tricky fear for someone who climbs a water tower!", "explanation": "Newt is afraid of heights. Spiders scare JJ, and plastic garbage bags creep out Cecil.", "set": "bank"},
+    {"id": "cn-036", "book": "captain-nobody", "type": "detail", "prompt": "How did Newt first teach himself to draw cartoons?", "answer": "By tracing pictures in Chris's comic books", "distractors": ["In an art class", "From drawing videos", "His dad taught him"], "acceptAlso": ["tracing comics"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "AUTH study guide", "hint": "He used his big brother's collection.", "explanation": "Newt taught himself by tracing pictures in Chris's comic books.", "set": "bank"},
+    {"id": "cn-037", "book": "captain-nobody", "type": "character", "prompt": "Which of Newt's friends is scared of spiders?", "answer": "JJ", "distractors": ["Cecil", "Newt", "Ricky"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "AUTH study guide", "hint": "Not the friend who wanted the drum.", "explanation": "JJ is scared of spiders.", "set": "bank"},
+    {"id": "cn-038", "book": "captain-nobody", "type": "character", "prompt": "Which of Newt's friends is creeped out by plastic garbage bags?", "answer": "Cecil", "distractors": ["JJ", "Newt", "Ricky"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "AUTH study guide", "hint": "He's the friend who wanted the bass drum.", "explanation": "Cecil gets creeped out by plastic garbage bags.", "set": "bank"},
+    {"id": "cn-039", "book": "captain-nobody", "type": "character", "prompt": "Which character is the lost old man Captain Nobody walks home?", "answer": "Mr. Clay", "distractors": ["Mr. Sullivan", "Mr. Hennessey", "Mr. Newman"], "acceptAlso": ["Clay"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "His last name is also what pottery is made from.", "explanation": "Mr. Clay has Alzheimer's and got lost, and Captain Nobody walks him home.", "set": "bank"},
+    {"id": "cn-040", "book": "captain-nobody", "type": "character", "prompt": "Which character is Reggie's cousin and picks on Newt at school?", "answer": "Ricky", "distractors": ["Darryl", "Reggie", "Cecil"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "He's related to the player who was blamed for the hit.", "explanation": "Ricky, Reggie's cousin, confronts Newt, but Newt's classmates stick up for him.", "set": "bank"},
+    {"id": "cn-041", "book": "captain-nobody", "type": "character", "prompt": "Which teammate does Newt realize really caused Chris's injury?", "answer": "Darryl", "distractors": ["Reggie", "Ricky", "Chris's coach"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It wasn't the player everyone blamed.", "explanation": "In a dream, Newt remembers seeing that Darryl, one of Chris's teammates, really caused the accident.", "set": "bank"},
+    {"id": "cn-042", "book": "captain-nobody", "type": "character", "prompt": "Which character was blamed for the hit on Chris and later got stuck on the water tower?", "answer": "Reggie", "distractors": ["Darryl", "Ricky", "Mr. Clay"], "acceptAlso": ["Reggie Ratner"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "His cousin bullies Newt.", "explanation": "Reggie was blamed for the hit on Chris. Later, Newt helps him when he gets stuck on the water tower.", "set": "bank"},
+    {"id": "cn-043", "book": "captain-nobody", "type": "character", "prompt": "Which neighbor is in charge of bringing potato chips to the tailgate party?", "answer": "Mrs. Hennessey", "distractors": ["Mrs. Clay", "Mrs. Sullivan", "Mrs. Monroe"], "acceptAlso": ["Carole Hennessey"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "She lives across the street.", "explanation": "Carole Hennessey, the neighbor across the street, is bringing ten bags of potato chips.", "set": "bank"},
+    {"id": "cn-044", "book": "captain-nobody", "type": "sequence", "prompt": "Put these events in order.", "order": ["Chris is hurt in the Big Game", "Newt becomes Captain Nobody on Halloween", "Captain Nobody walks Mr. Clay home", "Captain Nobody interrupts the jewelry-store robbery", "Newt falls from the water tower", "Chris wakes up"], "answer": "Big Game → Halloween → Mr. Clay → robbery → water tower → Chris wakes", "distractors": ["Big Game → Halloween → robbery → Mr. Clay → water tower → Chris wakes", "Halloween → Big Game → Mr. Clay → robbery → water tower → Chris wakes", "Big Game → Halloween → Mr. Clay → water tower → robbery → Chris wakes"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "Mr. Clay is Captain Nobody's first rescue.", "explanation": "Chris is hurt, and Newt becomes Captain Nobody on Halloween. He helps Mr. Clay, stops the robbery, and falls from the water tower. Then Chris wakes up.", "set": "bank"},
+    {"id": "cn-045", "book": "captain-nobody", "type": "sequence", "prompt": "The book opens with Newt falling. What part of the story does it then jump back to?", "answer": "The morning of the Big Game", "distractors": ["Halloween night", "The day Chris woke up", "The first day of school"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "AUTH", "hint": "It's the last time everything was okay.", "explanation": "Newt remembers back to the morning of the Big Game, the last time everything was fine.", "set": "bank"},
+    {"id": "cn-046", "book": "captain-nobody", "type": "sequence", "prompt": "What happens right after the ferret gets loose near the highway?", "answer": "Newt stops traffic and a small plane makes an emergency landing", "distractors": ["Newt falls from the water tower", "Newt walks Mr. Clay home", "Newt interrupts the jewelry robbery"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "Traffic stops.", "explanation": "Newt stops highway traffic to save the ferret, which clears the road for a small plane's emergency landing.", "set": "bank"},
+    {"id": "cn-047", "book": "captain-nobody", "type": "sequence", "prompt": "What happens when Newt visits Chris in the hospital for the first time?", "answer": "Chris wakes up", "distractors": ["Chris is moved to another hospital", "Newt falls asleep in the chair", "Reggie comes to apologize"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It's the moment the whole family was waiting for.", "explanation": "When Newt finally gets to visit, Chris wakes up from his coma.", "set": "bank"},
+    {"id": "cn-048", "book": "captain-nobody", "type": "sequence", "prompt": "How does the story end?", "answer": "Newt leads the victory parade as Captain Nobody", "distractors": ["Newt throws away the costume", "Chris becomes Captain Nobody", "Newt joins the football team"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "There's a celebration.", "explanation": "After both brothers recover, Newt leads the victory parade as Captain Nobody.", "set": "bank"},
+    {"id": "jt-001", "book": "jeremy-thatcher", "type": "in_which_book", "prompt": "In which book does a boy buy a colorful sphere at a magic shop for a quarter?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The shopkeeper says the object chose him.", "explanation": "Jeremy buys a colorful sphere from Mr. Elives for a quarter, and it turns out to be a dragon egg.", "set": "bank"},
+    {"id": "jt-002", "book": "jeremy-thatcher", "type": "in_which_book", "prompt": "In which book does a pet that only a few people can see breathe fire on a teacher's shoe?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The pet can feel its owner's anger.", "explanation": "Tiamat senses Jeremy's anger at Mr. Kravitz and breathes fire on the teacher's shoe.", "set": "bank"},
+    {"id": "jt-003", "book": "jeremy-thatcher", "type": "in_which_book", "prompt": "In which book must a spell be spoken under a full moon to hatch an egg?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The egg came from a magic shop.", "explanation": "The instructions say the hatching spell has to be spoken under a full moon.", "set": "bank"},
+    {"id": "jt-004", "book": "jeremy-thatcher", "type": "in_which_book", "prompt": "In which book does an art teacher ban a whole class from the spring art contest?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "Nobody would own up to a fire prank.", "explanation": "Mr. Kravitz bans the whole class until someone confesses to burning his shoe.", "set": "bank"},
+    {"id": "jt-005", "book": "jeremy-thatcher", "type": "in_which_book", "prompt": "In which book does a children's librarian lend out a book written by a magic-shop owner?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The librarian seems to know a lot about magic.", "explanation": "Miss Hyacinth Priest lends Jeremy a dragon book written by Mr. Elives.", "set": "bank"},
+    {"id": "jt-006", "book": "jeremy-thatcher", "type": "in_which_book", "prompt": "In which book does a creature cry a tear made of diamond?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The tear is a goodbye gift.", "explanation": "Tiamat cries a diamond tear before going home, and Jeremy keeps it.", "set": "bank"},
+    {"id": "jt-007", "book": "jeremy-thatcher", "type": "in_which_book", "prompt": "In which book does a pet have to be sent home to its own world on Midsummer Night?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The pet hatched under Earth's moon but belongs somewhere else.", "explanation": "A letter from Mr. Elives says Tiamat must go home on Midsummer Night.", "set": "bank"},
+    {"id": "jt-008", "book": "jeremy-thatcher", "type": "in_which_book", "prompt": "In which book does a family dog pull the tablecloth off during a dinner party?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "An invisible guest causes the trouble.", "explanation": "At dinner with the Huttons, Tiamat chases the cats, and Grief the dog pulls off the tablecloth.", "set": "bank"},
+    {"id": "jt-009", "book": "jeremy-thatcher", "type": "in_which_book", "prompt": "In which book is a veterinarian's son raising a secret pet?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; KIRKUS", "hint": "The pet grows very, very fast.", "explanation": "Jeremy's dad is a veterinarian, and Jeremy secretly raises a dragon.", "set": "bank"},
+    {"id": "jt-010", "book": "jeremy-thatcher", "type": "in_which_book", "prompt": "In which book does a girl write notes on purple paper to the boy she has a crush on?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "Her dad is on the school board.", "explanation": "Mary Lou Hutton writes notes on purple paper to Jeremy.", "set": "bank"},
+    {"id": "jt-011", "book": "jeremy-thatcher", "type": "detail", "prompt": "How much does Jeremy pay for the dragon egg?", "answer": "A quarter", "distractors": ["A dollar", "Nothing — it was free", "Ten dollars"], "acceptAlso": ["25 cents", "twenty-five cents"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It costs just one coin.", "explanation": "Mr. Elives sells the sphere to Jeremy for a quarter.", "set": "bank"},
+    {"id": "jt-012", "book": "jeremy-thatcher", "type": "detail", "prompt": "What is the name of the magic shop?", "answer": "Elives' Magic Supplies", "distractors": ["The Dragon's Den", "Priest's Curiosities", "Kravitz Art Supply"], "acceptAlso": ["Elives", "Mr. Elives' shop", "Elives's Magic Supplies"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; SS-CH", "hint": "It's named after the shopkeeper.", "explanation": "The shop is Elives' Magic Supplies, run by Mr. S. H. Elives.", "set": "bank"},
+    {"id": "jt-013", "book": "jeremy-thatcher", "type": "detail", "prompt": "When must the hatching spell be spoken?", "answer": "Under a full moon", "distractors": ["At noon on a Sunday", "During a thunderstorm", "On Halloween night"], "acceptAlso": ["full moon"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS", "hint": "Jeremy asks his dad about the moon.", "explanation": "The spell must be spoken under a full moon, and Jeremy's dad says the next one is the following night.", "set": "bank"},
+    {"id": "jt-014", "book": "jeremy-thatcher", "type": "detail", "prompt": "Where does Jeremy fall asleep while waiting for the egg to hatch?", "answer": "In a lawn chair outside", "distractors": ["In the bathtub", "In the barn", "At his desk"], "acceptAlso": ["lawn chair"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "He's waiting outside under the moon.", "explanation": "After saying the spell, Jeremy falls asleep in a lawn chair and wakes up as the egg is hatching.", "set": "bank"},
+    {"id": "jt-015", "book": "jeremy-thatcher", "type": "detail", "prompt": "What do the instructions say to feed the baby dragon?", "answer": "Chicken livers (small pieces of meat)", "distractors": ["Carrots", "Birdseed", "Dog food"], "acceptAlso": ["chicken livers", "meat"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It's small bits of meat.", "explanation": "The instructions say to feed the baby dragon small pieces of meat, like chicken livers.", "set": "bank"},
+    {"id": "jt-016", "book": "jeremy-thatcher", "type": "detail", "prompt": "What puts the baby dragon to sleep?", "answer": "A bowl of milk", "distractors": ["A lullaby", "Warm soup", "A night-light"], "acceptAlso": ["milk"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS; SEARCH", "hint": "It's served in a soup bowl.", "explanation": "A soup bowl full of milk makes the baby dragon fall asleep.", "set": "bank"},
+    {"id": "jt-017", "book": "jeremy-thatcher", "type": "detail", "prompt": "What three things must Jeremy save from the dragon?", "answer": "Her shed skin, baby teeth, and pieces of eggshell", "distractors": ["Her claws, scales, and smoke", "Her feathers, tears, and fire", "Her drawings, toys, and food"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "They're things she outgrows or leaves behind.", "explanation": "Jeremy must keep her shed skin, baby teeth, and pieces of eggshell. Later, they help build the gate home.", "set": "bank"},
+    {"id": "jt-018", "book": "jeremy-thatcher", "type": "detail", "prompt": "What color is Tiamat?", "answer": "Red", "distractors": ["Green", "Blue", "Gold"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS-CL; SEARCH", "hint": "It's the same color as fire.", "explanation": "Tiamat is a red dragon with emerald-green eyes.", "set": "bank"},
+    {"id": "jt-019", "book": "jeremy-thatcher", "type": "detail", "prompt": "How do Jeremy and Tiamat talk to each other?", "answer": "With mental pictures (a mind link)", "distractors": ["Out loud in English", "With sign language", "By writing notes"], "acceptAlso": ["telepathy", "mind link", "thoughts"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; KIRKUS", "hint": "No words are needed.", "explanation": "They share a mind link, and Tiamat sends Jeremy mental pictures and feelings.", "set": "bank"},
+    {"id": "jt-020", "book": "jeremy-thatcher", "type": "detail", "prompt": "Which of these names does the dragon turn down before accepting the name Tiamat?", "answer": "Smaug", "distractors": ["Spike", "Puff", "Norbert"], "acceptAlso": ["Fafnir", "Ouroboros"], "difficulty": 3, "verified": true, "confidence": "sourced", "source": "SS-CH (Ch. 6: Fafnir, Smaug, Ouroboros) — parent review", "hint": "One of the names Jeremy tries comes from another famous fantasy story.", "explanation": "Jeremy tries Fafnir, Smaug, and Ouroboros, and the dragon turns them all down before accepting Tiamat.", "set": "bank"},
+    {"id": "jt-021", "book": "jeremy-thatcher", "type": "detail", "prompt": "What small pets does the hungry baby dragon go after?", "answer": "Jeremy's gerbils", "distractors": ["The goldfish", "The neighbor's chickens", "Mary Lou's hamster"], "acceptAlso": ["gerbils"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "They're small, furry pets in Jeremy's room.", "explanation": "The hungry baby dragon goes after Jeremy's gerbils.", "set": "bank"},
+    {"id": "jt-022", "book": "jeremy-thatcher", "type": "detail", "prompt": "Who wrote the dragon book that Miss Priest lends to Jeremy?", "answer": "Mr. Elives", "distractors": ["Miss Priest", "Mr. Kravitz", "Dr. Thatcher"], "acceptAlso": ["Elives"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It's the same person who sold him the egg.", "explanation": "The dragon book was written by Mr. Elives.", "set": "bank"},
+    {"id": "jt-023", "book": "jeremy-thatcher", "type": "detail", "prompt": "Who took the dragon book by accident?", "answer": "Spess", "distractors": ["Mary Lou", "Jeremy's mom", "Howard Morton"], "acceptAlso": ["Specimen"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It happened after an argument.", "explanation": "After their fight, Spess accidentally took the book, and later he admits it.", "set": "bank"},
+    {"id": "jt-024", "book": "jeremy-thatcher", "type": "detail", "prompt": "What happens at the dinner with the Hutton family?", "answer": "Tiamat chases the cats and the dog pulls the tablecloth off", "distractors": ["Tiamat sets the kitchen on fire", "Mary Lou kisses Jeremy", "Mr. Kravitz shows up uninvited"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "The animals make a mess.", "explanation": "Tiamat chases the cats, and Grief pulls the tablecloth off the table.", "set": "bank"},
+    {"id": "jt-025", "book": "jeremy-thatcher", "type": "detail", "prompt": "How does Tiamat get out of the house to follow Jeremy to school?", "answer": "Through the cat door", "distractors": ["Down the chimney", "Through an open window", "In Jeremy's backpack"], "acceptAlso": ["cat door"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It's a small door made for pets.", "explanation": "Tiamat escapes the house through the cat door and joins Jeremy at school.", "set": "bank"},
+    {"id": "jt-026", "book": "jeremy-thatcher", "type": "detail", "prompt": "What does Tiamat set on fire at school?", "answer": "Mr. Kravitz's shoe", "distractors": ["The art-room curtains", "Jeremy's drawing", "The library book"], "acceptAlso": ["Kravitz's shoe", "the teacher's shoe"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It's something the art teacher was wearing.", "explanation": "When Mr. Kravitz insults fantasy art, Tiamat feels Jeremy's anger and breathes fire on the teacher's shoe.", "set": "bank"},
+    {"id": "jt-027", "book": "jeremy-thatcher", "type": "detail", "prompt": "What is the prize for winning the spring art contest?", "answer": "Painting the department-store window", "distractors": ["A trip to an art museum", "A new set of paints", "A $100 savings bond"], "acceptAlso": ["painting a store window"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "The winner's art goes on display downtown.", "explanation": "The top prize is painting the department-store window.", "set": "bank"},
+    {"id": "jt-028", "book": "jeremy-thatcher", "type": "detail", "prompt": "On what night must Tiamat go back to her own world?", "answer": "Midsummer Night", "distractors": ["Halloween", "New Year's Eve", "The next full moon"], "acceptAlso": ["Midsummer's Eve", "Midsummer"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It's a night in June.", "explanation": "Tiamat must go home on Midsummer Night.", "set": "bank"},
+    {"id": "jt-029", "book": "jeremy-thatcher", "type": "detail", "prompt": "According to the dragon book, why must dragons hatch on Earth?", "answer": "They can only hatch under Earth's moon", "distractors": ["Their world is too cold", "They need human food", "They are safer on Earth"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It has to do with the sky.", "explanation": "Dragons left Earth long ago, but they can only hatch under Earth's moon. So they hatch here and then are sent home.", "set": "bank"},
+    {"id": "jt-030", "book": "jeremy-thatcher", "type": "detail", "prompt": "Where does Tiamat live once she's too big for the house?", "answer": "In the barn", "distractors": ["At the magic shop", "In the garage", "At the library"], "acceptAlso": ["barn"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It's a farm building on the family's property.", "explanation": "When she gets too big for the house, Jeremy moves Tiamat to the barn.", "set": "bank"},
+    {"id": "jt-031", "book": "jeremy-thatcher", "type": "detail", "prompt": "What does Tiamat give Jeremy before she leaves?", "answer": "A diamond tear", "distractors": ["One of her scales", "A golden egg", "A baby tooth"], "acceptAlso": ["a tear", "diamond"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It sparkles.", "explanation": "Before she leaves, Tiamat cries a diamond tear, and Jeremy keeps it. Miss Priest has one too.", "set": "bank"},
+    {"id": "jt-032", "book": "jeremy-thatcher", "type": "detail", "prompt": "What do Jeremy and Miss Priest use to build the gate home for Tiamat?", "answer": "Tiamat's shed skin and teeth", "distractors": ["Gold coins", "The dragon book", "Jeremy's drawings"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "They're things Jeremy saved from Tiamat.", "explanation": "They build the magical gate from Tiamat's shed skin and teeth.", "set": "bank"},
+    {"id": "jt-033", "book": "jeremy-thatcher", "type": "detail", "prompt": "At what party does Jeremy's mind link with Tiamat come back?", "answer": "A Halloween party", "distractors": ["A birthday party", "A Midsummer party", "A holiday party in December"], "acceptAlso": ["Halloween"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It's a costume holiday in the fall.", "explanation": "At the Halloween party his parents throw, Jeremy's mind link with Tiamat suddenly comes back.", "set": "bank"},
+    {"id": "jt-034", "book": "jeremy-thatcher", "type": "detail", "prompt": "What is Jeremy's father's job?", "answer": "Veterinarian", "distractors": ["Art teacher", "Librarian", "Farmer"], "acceptAlso": ["vet", "animal doctor"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; KIRKUS; WP", "hint": "He takes care of animals.", "explanation": "Dr. Thatcher is a veterinarian, and Jeremy sometimes helps at his office.", "set": "bank"},
+    {"id": "jt-035", "book": "jeremy-thatcher", "type": "detail", "prompt": "In chapter 1, what does Mr. Kravitz read out loud to embarrass Jeremy?", "answer": "A note from Mary Lou saying she'll kiss him after school", "distractors": ["Jeremy's bad report card", "A poem Jeremy wrote", "A letter from Mr. Elives"], "acceptAlso": ["a love note", "Mary Lou's note"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS-CH", "hint": "It was written on purple paper.", "explanation": "Mr. Kravitz reads out Mary Lou's note saying she'll kiss Jeremy after school, but he doesn't say who wrote it.", "set": "bank"},
+    {"id": "jt-036", "book": "jeremy-thatcher", "type": "detail", "prompt": "What grade is Jeremy in?", "answer": "Sixth", "distractors": ["Fourth", "Fifth", "Seventh"], "acceptAlso": ["6th", "sixth grade"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS-CH; SS-CL", "hint": "He's finally old enough for the art contest's top prize.", "explanation": "Jeremy is in sixth grade, so he can finally compete for the top prize.", "set": "bank"},
+    {"id": "jt-037", "book": "jeremy-thatcher", "type": "detail", "prompt": "What does Mr. Kravitz forbid in his art class?", "answer": "Fantasy art", "distractors": ["Colored pencils", "Working in pairs", "Painting with watercolors"], "acceptAlso": ["fantasy", "dragons"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS-CL", "hint": "Think dragons and unicorns.", "explanation": "Mr. Kravitz prefers realistic art and forbids fantasy art in his class.", "set": "bank"},
+    {"id": "jt-038", "book": "jeremy-thatcher", "type": "character", "prompt": "Which character is Jeremy's best friend, nicknamed Spess?", "answer": "Specimen", "distractors": ["Howard Morton", "Freddy", "Mr. Martinez"], "acceptAlso": ["Spess"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS-CH; SS-CL", "hint": "He wears thick glasses and is good at art.", "explanation": "Specimen, called Spess, is Jeremy's best friend.", "set": "bank"},
+    {"id": "jt-039", "book": "jeremy-thatcher", "type": "character", "prompt": "Which classmate can see Tiamat?", "answer": "Mary Lou Hutton", "distractors": ["Spess", "Howard Morton", "Mr. Kravitz"], "acceptAlso": ["Mary Lou"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS", "hint": "She has a crush on Jeremy.", "explanation": "Mary Lou Hutton follows Jeremy home and can see Tiamat, which most people can't.", "set": "bank"},
+    {"id": "jt-040", "book": "jeremy-thatcher", "type": "character", "prompt": "Which character is the children's librarian?", "answer": "Miss Hyacinth Priest", "distractors": ["Mrs. Thatcher", "Mary Lou Hutton", "Mrs. Hutton"], "acceptAlso": ["Miss Priest", "Hyacinth Priest"], "difficulty": 1, "verified": false, "confidence": "sourced", "source": "SS; SS-CL", "hint": "Her first name is a flower.", "explanation": "Miss Hyacinth Priest is the children's librarian.", "set": "bank"},
+    {"id": "jt-041", "book": "jeremy-thatcher", "type": "character", "prompt": "Which character turns out to have raised a dragon too, and also keeps a diamond tear?", "answer": "Miss Priest", "distractors": ["Mr. Kravitz", "Dr. Thatcher", "Mary Lou"], "acceptAlso": ["Hyacinth Priest"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "She helped build the gate.", "explanation": "At the Halloween party, Miss Priest quietly shows that she also has a diamond dragon tear.", "set": "bank"},
+    {"id": "jt-042", "book": "jeremy-thatcher", "type": "character", "prompt": "Which character does Jeremy realize may be jealous of his artistic talent?", "answer": "Mr. Kravitz", "distractors": ["Spess", "Mary Lou", "Mr. Martinez"], "acceptAlso": ["Kravitz"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "He's the art teacher.", "explanation": "During an argument after Jeremy confesses to the shoe fire, Jeremy comes to see that Mr. Kravitz's harsh treatment comes partly from jealousy of Jeremy's natural talent.", "set": "bank"},
+    {"id": "jt-043", "book": "jeremy-thatcher", "type": "character", "prompt": "Which two characters are the bullies Jeremy runs from in chapter 1?", "answer": "Howard Morton and Freddy the Frog Killer", "distractors": ["Howard Morton and Spess", "Freddy the Frog Killer and Mary Lou Hutton", "Spess and Mary Lou Hutton"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS-CH", "hint": "One of them has a very creepy nickname.", "explanation": "Jeremy runs from the bullies Howard Morton and Freddy the Frog Killer, and also from Mary Lou.", "set": "bank"},
+    {"id": "jt-044", "book": "jeremy-thatcher", "type": "character", "prompt": "What is the name of the Thatchers' dog?", "answer": "Grief", "distractors": ["Harold", "Ferocious", "Spike"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS; SS-CL", "hint": "It's an unusual name for a happy, drooly dog.", "explanation": "The Thatchers' big, drooly dog is named Grief.", "set": "bank"},
+    {"id": "jt-045", "book": "jeremy-thatcher", "type": "character", "prompt": "Whose father is on the school board?", "answer": "Mary Lou Hutton's", "distractors": ["Spess's", "Jeremy's", "Howard Morton's"], "acceptAlso": ["Mary Lou"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS-CH; SS-CL", "hint": "It's why Mr. Kravitz won't say who wrote the note.", "explanation": "Mary Lou's father is on the school board, which is why Mr. Kravitz doesn't name her when he reads the note.", "set": "bank"},
+    {"id": "jt-046", "book": "jeremy-thatcher", "type": "sequence", "prompt": "Put these events in order.", "order": ["Jeremy buys the sphere at the magic shop", "Tiamat hatches under the full moon", "Mary Lou discovers she can see Tiamat", "Tiamat burns Mr. Kravitz's shoe", "Tiamat goes home through the gate"], "answer": "buys sphere → hatches → Mary Lou sees her → shoe fire → gate", "distractors": ["buys sphere → hatches → shoe fire → Mary Lou sees her → gate", "buys sphere → Mary Lou sees her → hatches → shoe fire → gate", "hatches → buys sphere → Mary Lou sees her → shoe fire → gate"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "Mary Lou finds out before the dinner party.", "explanation": "Jeremy buys the egg, it hatches, and Mary Lou finds out she can see Tiamat. Then the shoe fire happens at school, and Tiamat leaves through the gate on Midsummer Night.", "set": "bank"},
+    {"id": "jt-047", "book": "jeremy-thatcher", "type": "sequence", "prompt": "What happens right after Tiamat sets Mr. Kravitz's shoe on fire?", "answer": "Mr. Kravitz bans the whole class from the art contest", "distractors": ["Jeremy is sent to the principal", "Tiamat flies home", "Mary Lou tells on Jeremy"], "difficulty": 2, "verified": false, "confidence": "sourced", "source": "SS", "hint": "Everyone gets punished.", "explanation": "Mr. Kravitz doesn't know who did it, so he bans the whole class until someone confesses.", "set": "bank"},
+    {"id": "jt-048", "book": "jeremy-thatcher", "type": "sequence", "prompt": "After Jeremy confesses to the shoe fire, what does Mr. Kravitz decide?", "answer": "The class can enter the contest, but Jeremy is still banned", "distractors": ["The whole class stays banned", "Jeremy is allowed back in", "The contest is cancelled"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "Kravitz thinks Jeremy is covering for someone.", "explanation": "Mr. Kravitz lets the class back into the contest but keeps Jeremy banned.", "set": "bank"},
+    {"id": "jt-049", "book": "jeremy-thatcher", "type": "sequence", "prompt": "Which of these happens first?", "answer": "Miss Priest lends Jeremy the dragon book", "distractors": ["Tiamat gets her name", "Spess visits and can't see Tiamat", "Mary Lou sees Tiamat"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "Jeremy goes looking for dragon facts right after the hatching.", "explanation": "Jeremy gets the book from Miss Priest in Chapters 3–5, before he names Tiamat in Chapter 6.", "set": "bank"},
+    {"id": "jt-050", "book": "jeremy-thatcher", "type": "sequence", "prompt": "How does Jeremy get home right after buying the egg?", "answer": "He is magically sent home", "distractors": ["His dad picks him up", "He rides the bus", "Spess walks him home"], "acceptAlso": ["by magic"], "difficulty": 3, "verified": false, "confidence": "sourced", "source": "SS", "hint": "It's something magical, not an ordinary trip.", "explanation": "After buying the egg, Jeremy is magically sent home from the shop.", "set": "bank"},
+    {"id": "jt-051", "book": "jeremy-thatcher", "type": "detail", "prompt": "Who wins first prize in the art contest?", "answer": "Spess", "distractors": ["Jeremy", "Mary Lou", "Howard Morton"], "acceptAlso": ["Specimen"], "difficulty": 3, "verified": true, "confidence": "sourced", "source": "SS-CH (Ch. 12–Epilogue); SS character analysis — parent review", "hint": "Jeremy wonders if his friend will keep their deal to share the prize.", "explanation": "Spess wins first prize. Jeremy was banned after confessing to the shoe fire.", "set": "bank"},
+    {"id": "sg-01", "book": "artemis-fowl", "type": "detail", "set": "study-guide", "prompt": "In the book Artemis Fowl, what kind of creature does Artemis kidnap and hold for ransom?", "answer": "An elf (the fairy Holly Short)", "distractors": ["A dwarf", "A troll", "A centaur"], "acceptAlso": ["elf", "an elf", "fairy", "a fairy", "Holly Short", "Holly"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #1, school answer key", "hint": "She's a captain in the fairy police.", "explanation": "Artemis kidnaps Captain Holly Short, an elf from the fairy police (the LEP), and holds her for a gold ransom."},
+    {"id": "sg-02", "book": "bunnicula", "type": "detail", "set": "study-guide", "prompt": "In the book Bunnicula, where does the Monroe family find the mysterious rabbit they bring home?", "answer": "At a movie theater, during a showing of Dracula", "distractors": ["At a pet store", "In their backyard garden", "At the vet's office"], "acceptAlso": ["movie theater", "theater", "the movies", "at the movies", "movies"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #2, school answer key", "hint": "They were out watching a scary movie.", "explanation": "The Monroes find the bunny at the movies during Dracula. That's where his name comes from."},
+    {"id": "sg-03", "book": "captain-nobody", "type": "character", "set": "study-guide", "prompt": "In the book Captain Nobody, what is the real name of the boy who becomes Captain Nobody?", "answer": "Newton (Newt) Newman", "distractors": ["Chris Newman", "Norton Newman", "Neil Newman"], "acceptAlso": ["Newt Newman", "Newton Newman", "Newt", "Newton"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #3, school answer key", "hint": "He's named after a famous scientist.", "explanation": "Captain Nobody is Newton “Newt” Newman, the 10-year-old brother of football star Chris Newman."},
+    {"id": "sg-04", "book": "jeremy-thatcher", "type": "detail", "set": "study-guide", "prompt": "In the book Jeremy Thatcher, Dragon Hatcher, what does Jeremy purchase from Elives' Magic Supplies?", "answer": "A mysterious multicolored sphere (a dragon egg)", "distractors": ["A book about dragons", "A crystal ball", "A magic paintbrush"], "acceptAlso": ["dragon egg", "a dragon egg", "egg", "sphere", "multicolored sphere", "marbled sphere"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #4, school answer key", "hint": "It hatches.", "explanation": "Jeremy buys a colorful sphere for a quarter, and it turns out to be a dragon egg."},
+    {"id": "sg-05", "book": "artemis-fowl", "type": "character", "set": "study-guide", "prompt": "In the book Artemis Fowl, what is the name of Artemis Fowl's bodyguard?", "answer": "Butler", "distractors": ["Juliet", "Foaly", "Trouble Kelp"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #5, school answer key", "hint": "His name is also his job.", "explanation": "Butler is Artemis's bodyguard. His family has protected the Fowls for generations."},
+    {"id": "sg-06", "book": "captain-nobody", "type": "character", "set": "study-guide", "prompt": "In the book Captain Nobody, what is the name of Newt's older brother, who is a star football player?", "answer": "Chris Newman", "distractors": ["Darryl", "Reggie", "Cecil"], "acceptAlso": ["Chris"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #6, school answer key", "hint": "His initials are C.N.", "explanation": "Chris Newman is Fillmore High's star quarterback and Newt's big brother."},
+    {"id": "sg-07", "book": "bunnicula", "type": "character", "set": "study-guide", "prompt": "In the book Bunnicula, who becomes convinced that Bunnicula is a vampire?", "answer": "Chester (the cat)", "distractors": ["Harold", "Toby", "Mrs. Monroe"], "acceptAlso": ["Chester"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #7, school answer key", "hint": "He reads lots of horror stories.", "explanation": "Chester, the well-read cat, is sure Bunnicula is a vampire."},
+    {"id": "sg-08", "book": "jeremy-thatcher", "type": "detail", "set": "study-guide", "prompt": "In the book Jeremy Thatcher, Dragon Hatcher, what name does Jeremy give the dragon he hatches?", "answer": "Tiamat", "distractors": ["Smaug", "Fafnir", "Ouroboros"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #8, school answer key", "hint": "The name comes from ancient Mesopotamian myths.", "explanation": "Jeremy tries Fafnir, Smaug, and Ouroboros first, but the dragon only accepts Tiamat."},
+    {"id": "sg-09", "book": "artemis-fowl", "type": "detail", "set": "study-guide", "prompt": "In the book Artemis Fowl, what does Artemis demand from the fairies in exchange for Holly Short?", "answer": "One ton of gold", "distractors": ["The fairies' Book", "A pot of gold", "His father's return"], "acceptAlso": ["a ton of gold", "gold", "one ton of 24-carat gold", "1 ton of gold"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #9, school answer key", "hint": "It's measured by weight.", "explanation": "Artemis demands one ton of 24-carat gold to rebuild the family fortune."},
+    {"id": "sg-10", "book": "bunnicula", "type": "detail", "set": "study-guide", "prompt": "In the book Bunnicula, what happens to vegetables after Bunnicula has been near them during the night?", "answer": "They turn white (their color and juice are drained)", "distractors": ["They rot overnight", "They disappear", "They turn purple"], "acceptAlso": ["turn white", "they turn white", "white", "drained", "they are drained"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #10, school answer key", "hint": "Think about color, and juice.", "explanation": "The vegetables are found drained of juice and white, with two tiny holes in them."},
+    {"id": "sg-11", "book": "captain-nobody", "type": "character", "set": "study-guide", "prompt": "In the book Captain Nobody, what two friends help Newt come up with the idea of dressing as their ‘inner other’ for Halloween?", "answer": "Cecil and JJ", "distractors": ["Ricky and Reggie", "Darryl and Ricky", "Chris and Darryl"], "acceptAlso": ["JJ and Cecil"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #11, school answer key", "hint": "One wanted a bass drum; one hates bad grammar.", "explanation": "Newt's best friends Cecil and JJ help turn Chris's old clothes into the Captain Nobody costume."},
+    {"id": "sg-12", "book": "jeremy-thatcher", "type": "detail", "set": "study-guide", "prompt": "In the book Jeremy Thatcher, Dragon Hatcher, how much does Jeremy pay Mr. Elives for the mysterious sphere?", "answer": "Twenty-five cents (a quarter)", "distractors": ["One dollar", "Fifty cents", "Nothing, it was free"], "acceptAlso": ["a quarter", "quarter", "25 cents", "twenty-five cents", "25¢"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #12, school answer key", "hint": "Just one coin.", "explanation": "Mr. Elives sells Jeremy the sphere for a quarter and says the sphere chose him."},
+    {"id": "sg-13", "book": "artemis-fowl", "type": "detail", "set": "study-guide", "prompt": "In the book Artemis Fowl, what organization does Holly Short work for?", "answer": "The Lower Elements Police (LEP)", "distractors": ["The Fairy Council", "The Gnommish Guard", "The Haven City Watch"], "acceptAlso": ["LEP", "Lower Elements Police", "LEPrecon", "the LEP"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #13, school answer key", "hint": "Its initials are three letters.", "explanation": "Holly is a captain in LEPrecon, the recon unit of the Lower Elements Police."},
+    {"id": "sg-14", "book": "bunnicula", "type": "character", "set": "study-guide", "prompt": "In the book Bunnicula, who narrates the story?", "answer": "Harold (the dog)", "distractors": ["Chester", "Toby", "Bunnicula"], "acceptAlso": ["Harold"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #14, school answer key", "hint": "He's the snack-loving family pet.", "explanation": "Harold, the Monroes' dog, tells the story."},
+    {"id": "sg-15", "book": "jeremy-thatcher", "type": "character", "set": "study-guide", "prompt": "In the book Jeremy Thatcher, Dragon Hatcher, what is the name of Jeremy's art teacher?", "answer": "Mr. Kravitz", "distractors": ["Mr. Elives", "Mr. Martinez", "Miss Priest"], "acceptAlso": ["Kravitz"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #15, school answer key", "hint": "He bans fantasy art.", "explanation": "Mr. Kravitz is the strict art teacher who keeps criticizing Jeremy."},
+    {"id": "sg-16", "book": "captain-nobody", "type": "detail", "set": "study-guide", "prompt": "In the book Captain Nobody, what superhero identity does Newt create from his Halloween costume?", "answer": "Captain Nobody", "distractors": ["Captain Somebody", "The Little Guy", "Captain Newman"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #16, school answer key", "hint": "It's the book's title.", "explanation": "Newt turns Chris's initials, C.N., into the name Captain Nobody."},
+    {"id": "sg-17", "book": "artemis-fowl", "type": "character", "set": "study-guide", "prompt": "In the book Artemis Fowl, what criminal dwarf is sent into Fowl Manor?", "answer": "Mulch Diggums", "distractors": ["Foaly", "Briar Cudgeon", "Trouble Kelp"], "acceptAlso": ["Mulch"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #17, school answer key", "hint": "He digs by eating dirt.", "explanation": "Commander Root sends Mulch Diggums, a kleptomaniac dwarf, to tunnel into Fowl Manor."},
+    {"id": "sg-18", "book": "bunnicula", "type": "detail", "set": "study-guide", "prompt": "In the book Bunnicula, what does Chester place around Bunnicula's cage in an attempt to stop him?", "answer": "Garlic", "distractors": ["Salt", "Silver spoons", "Mirrors"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #18, school answer key", "hint": "It's a smelly vampire repellent.", "explanation": "Chester uses garlic because vampire stories say it keeps vampires away."},
+    {"id": "sg-19", "book": "jeremy-thatcher", "type": "detail", "set": "study-guide", "prompt": "In the book Jeremy Thatcher, Dragon Hatcher, what food do the instructions suggest Jeremy feed the baby dragon?", "answer": "Small pieces of meat, like chicken liver", "distractors": ["Carrots and lettuce", "Birdseed", "Dog food"], "acceptAlso": ["chicken liver", "chicken livers", "meat", "small pieces of meat", "raw meat"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #19, school answer key", "hint": "Think meat.", "explanation": "The instructions say to feed the baby dragon small bits of meat, like chicken livers."},
+    {"id": "sg-20", "book": "captain-nobody", "type": "detail", "set": "study-guide", "prompt": "In the book Captain Nobody, what town does Newt live in?", "answer": "Appleton", "distractors": ["Fillmore", "Merrimac", "Springfield"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #20, school answer key", "hint": "It sounds like a fruit.", "explanation": "Newt lives in Appleton. Fillmore and Merrimac are the rival high schools."},
+    {"id": "sg-21", "book": "artemis-fowl", "type": "detail", "set": "study-guide", "prompt": "In the book Artemis Fowl, what creature nearly kills Butler during the siege of Fowl Manor?", "answer": "A troll", "distractors": ["A goblin", "A centaur", "A dwarf"], "acceptAlso": ["troll"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #21, school answer key", "hint": "Cudgeon sent it in.", "explanation": "Cudgeon sends a troll into Fowl Manor, and Butler nearly dies before Holly heals him."},
+    {"id": "sg-22", "book": "bunnicula", "type": "detail", "set": "study-guide", "prompt": "In the book Bunnicula, what does Chester mistakenly use because he confuses it with a wooden ‘stake’?", "answer": "A steak", "distractors": ["A carrot", "A wooden spoon", "A pencil"], "acceptAlso": ["steak", "a raw steak", "raw steak"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #22, school answer key", "hint": "Stake… or steak?", "explanation": "Chester mixes up “stake” and “steak” and goes after Bunnicula with raw meat."},
+    {"id": "sg-23", "book": "jeremy-thatcher", "type": "character", "set": "study-guide", "prompt": "In the book Jeremy Thatcher, Dragon Hatcher, who is the girl from Jeremy's school who is also able to see Tiamat?", "answer": "Mary Lou Hutton", "distractors": ["Miss Priest", "Mrs. Thatcher", "Juliet"], "acceptAlso": ["Mary Lou"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #23, school answer key", "hint": "She has a crush on Jeremy.", "explanation": "Mary Lou Hutton follows Jeremy home and can see Tiamat, which most people can't."},
+    {"id": "sg-24", "book": "captain-nobody", "type": "detail", "set": "study-guide", "prompt": "In the book Captain Nobody, what event involving Newt's brother Chris changes the Newman family's life after the Big Game?", "answer": "Chris is badly hurt and ends up in the hospital in a coma", "distractors": ["Chris wins a college scholarship", "Chris quits the football team", "Chris is suspended from school"], "acceptAlso": ["coma", "Chris goes into a coma", "he is injured", "Chris is injured", "injured", "hospitalized"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #24, school answer key", "hint": "It happens on the last play.", "explanation": "Chris is hit on the final play of the Big Game and falls into a coma."},
+    {"id": "sg-25", "book": "artemis-fowl", "type": "detail", "set": "study-guide", "prompt": "In the book Artemis Fowl, what does Holly use her restored magic to do for Butler after he is badly injured?", "answer": "She heals him", "distractors": ["She erases his memory", "She puts him to sleep", "She makes him invisible"], "acceptAlso": ["heals him", "heal him", "heals", "healing"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #25, school answer key", "hint": "He was hurt fighting the troll.", "explanation": "With her magic back, Holly heals Butler, and he defeats the troll."},
+    {"id": "sg-26", "book": "bunnicula", "type": "detail", "set": "study-guide", "prompt": "In the book Bunnicula, what does the veterinarian believe is causing Chester's strange behavior?", "answer": "Sibling rivalry (he's upset about Bunnicula)", "distractors": ["A bad diet", "Too much garlic", "A virus he caught"], "acceptAlso": ["sibling rivalry", "jealousy", "emotional distress"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #26, school answer key", "hint": "It's the kind of problem brothers and sisters have.", "explanation": "The vet thinks Chester is jealous of the new pet. In other words, it's sibling rivalry."},
+    {"id": "sg-27", "book": "jeremy-thatcher", "type": "detail", "set": "study-guide", "prompt": "In the book Jeremy Thatcher, Dragon Hatcher, what does Tiamat do to Mr. Kravitz's shoe?", "answer": "She breathes fire on it", "distractors": ["She chews it up", "She hides it", "She knocks it off the desk"], "acceptAlso": ["sets it on fire", "burns it", "fire", "breathes fire"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #27, school answer key", "hint": "She's a dragon.", "explanation": "Tiamat feels Jeremy's anger when Mr. Kravitz insults fantasy art and breathes fire on his shoe."},
+    {"id": "sg-28", "book": "captain-nobody", "type": "detail", "set": "study-guide", "prompt": "In the book Captain Nobody, what holiday leads Newt and his friends to create their unusual costumes?", "answer": "Halloween", "distractors": ["Thanksgiving", "Homecoming", "The Fourth of July"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #28, school answer key", "hint": "It comes right after the Big Game.", "explanation": "The friends plan Halloween costumes that show their “inner other.”"},
+    {"id": "sg-29", "book": "artemis-fowl", "type": "detail", "set": "study-guide", "prompt": "In the book Artemis Fowl, what does Artemis secretly put in the champagne to help himself, Butler, and Juliet escape the time stop?", "answer": "A sedative (sleeping pills)", "distractors": ["Truth serum", "A fairy potion", "Holy water"], "acceptAlso": ["sedative", "sleeping pills", "sleeping pill", "a sedative"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #29, school answer key", "hint": "It makes them fall asleep.", "explanation": "Sleeping through the end of the time-stop lets them slip out of it."},
+    {"id": "sg-30", "book": "jeremy-thatcher", "type": "detail", "set": "study-guide", "prompt": "In the book Jeremy Thatcher, Dragon Hatcher, on what special night must Jeremy return Tiamat so she can go to her own world?", "answer": "Midsummer Night", "distractors": ["Halloween", "The next full moon", "New Year's Eve"], "acceptAlso": ["Midsummer", "Midsummer's Eve", "Midsummer Eve"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #30, school answer key", "hint": "It's a night in June.", "explanation": "Mr. Elives's letter says Tiamat must go home on Midsummer Night."},
+    {"id": "sg-31", "book": "bunnicula", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a character discover that vegetables have mysteriously turned white?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #31, school answer key", "hint": "Someone suspects a vampire bunny.", "explanation": "White, drained vegetables keep turning up in the Monroes' kitchen."},
+    {"id": "sg-32", "book": "jeremy-thatcher", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a boy buy a mysterious object for only twenty-five cents?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #32, school answer key", "hint": "The object turns out to be an egg.", "explanation": "Jeremy buys the dragon egg from Mr. Elives for a quarter."},
+    {"id": "sg-33", "book": "captain-nobody", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a young boy create a superhero costume that eventually becomes part of his everyday identity?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #33, school answer key", "hint": "He keeps wearing it after Halloween.", "explanation": "Newt keeps wearing his Captain Nobody costume to school and around town."},
+    {"id": "sg-34", "book": "artemis-fowl", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a twelve-year-old criminal mastermind kidnap a member of a hidden magical civilization?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #34, school answer key", "hint": "The hidden civilization lives underground.", "explanation": "Artemis Fowl kidnaps Holly Short of the fairy People."},
+    {"id": "sg-35", "book": "bunnicula", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a character try to protect a family from what he believes is a vampire?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #35, school answer key", "hint": "The protector is a pet.", "explanation": "Chester the cat tries to protect the Monroes from Bunnicula."},
+    {"id": "sg-36", "book": "jeremy-thatcher", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a dragon communicate with a boy through a mental connection?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #36, school answer key", "hint": "The boy loves to draw.", "explanation": "Tiamat sends Jeremy pictures and feelings through their mind link."},
+    {"id": "sg-37", "book": "captain-nobody", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does the main character live in the shadow of his older brother, a local football star?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #37, school answer key", "hint": "The brother is a quarterback.", "explanation": "Newt feels invisible next to his famous brother Chris."},
+    {"id": "sg-38", "book": "artemis-fowl", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a dwarf tunnel into a manor as part of an attempt to rescue a captive?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #38, school answer key", "hint": "The captive is a fairy police officer.", "explanation": "Mulch Diggums tunnels into Fowl Manor for the LEP."},
+    {"id": "sg-39", "book": "bunnicula", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a cat use garlic in an attempt to stop a suspected vampire?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #39, school answer key", "hint": "The suspect is a rabbit.", "explanation": "Chester spreads garlic to stop Bunnicula."},
+    {"id": "sg-40", "book": "jeremy-thatcher", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a character's art teacher ban an entire class from an art contest after his shoe is mysteriously set on fire?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #40, school answer key", "hint": "The fire came from an invisible pet.", "explanation": "Mr. Kravitz bans the class after Tiamat burns his shoe."},
+    {"id": "sg-41", "book": "captain-nobody", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a boy's Halloween costume help him become more confident and noticeable to the people around him?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #41, school answer key", "hint": "The costume is made from football clothes.", "explanation": "The Captain Nobody costume gives Newt the courage to help people."},
+    {"id": "sg-42", "book": "artemis-fowl", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a bodyguard fight a troll inside a manor?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #42, school answer key", "hint": "The manor is in Ireland.", "explanation": "Butler fights the troll that Cudgeon sends into Fowl Manor."},
+    {"id": "sg-43", "book": "bunnicula", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a family bring home a pet after finding it at a showing of Dracula?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #43, school answer key", "hint": "The pet's name mixes 'bunny' and the movie title.", "explanation": "The Monroes find Bunnicula at a showing of Dracula."},
+    {"id": "sg-44", "book": "jeremy-thatcher", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a librarian give the main character a special book written by the owner of a magic shop?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #44, school answer key", "hint": "The librarian's first name is a flower.", "explanation": "Miss Hyacinth Priest lends Jeremy a dragon book written by Mr. Elives."},
+    {"id": "sg-45", "book": "captain-nobody", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a boy's older brother end up seriously injured after a major football game?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #45, school answer key", "hint": "The injury happens in the Big Game.", "explanation": "Chris Newman is knocked into a coma during the Big Game."},
+    {"id": "sg-46", "book": "artemis-fowl", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does the main character demand a large amount of gold as ransom?", "answer": "Artemis Fowl — Eoin Colfer", "distractors": ["Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #46, school answer key", "hint": "The gold is fairy gold.", "explanation": "Artemis demands one ton of gold for Holly Short."},
+    {"id": "sg-47", "book": "bunnicula", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a character mistakenly use a piece of meat because he misunderstands something he read about vampires?", "answer": "Bunnicula — Deborah and James Howe", "distractors": ["Artemis Fowl — Eoin Colfer", "Captain Nobody — Dean Pitchford", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #47, school answer key", "hint": "Stake… or steak?", "explanation": "Chester attacks Bunnicula with a steak instead of a stake."},
+    {"id": "sg-48", "book": "jeremy-thatcher", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a boy have to save pieces of eggshell, shed skin, and baby teeth for later use?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #48, school answer key", "hint": "They're used to build a gate home.", "explanation": "Jeremy saves Tiamat's eggshell, skin, and teeth to make her gate home."},
+    {"id": "sg-49", "book": "captain-nobody", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does the main character have two best friends named Cecil and JJ?", "answer": "Captain Nobody — Dean Pitchford", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Jeremy Thatcher, Dragon Hatcher — Bruce Coville"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #49, school answer key", "hint": "The main character is called Newt.", "explanation": "Cecil and JJ are Newt Newman's best friends."},
+    {"id": "sg-50", "book": "jeremy-thatcher", "type": "in_which_book", "set": "study-guide", "prompt": "In which book does a character receive a diamond tear from a magical creature before saying goodbye?", "answer": "Jeremy Thatcher, Dragon Hatcher — Bruce Coville", "distractors": ["Artemis Fowl — Eoin Colfer", "Bunnicula — Deborah and James Howe", "Captain Nobody — Dean Pitchford"], "difficulty": 1, "verified": true, "confidence": "school", "source": "School study guide (BoTB.pdf) #50, school answer key", "hint": "The creature is a dragon.", "explanation": "Tiamat cries a diamond tear for Jeremy before she leaves."}
+  ]
+}
